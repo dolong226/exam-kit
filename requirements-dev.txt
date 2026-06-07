@@ -1,0 +1,9 @@
+-c requirements.txt # Kế thừa các dependencies từ file chính
+
+# --- Testing ---
+pytest>=7.0.0
+pytest-cov>=4.1.0   # Đo độ bao phủ của test code
+
+# --- Linter & Formatter ---
+ruff>=0.3.0         # Linter và Formatter cực nhanh (thay thế flake8, black, isort)
+mypy>=1.8.0         # Kiểm tra type hint nghiêm ngặt
