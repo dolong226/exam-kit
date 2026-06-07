@@ -240,7 +240,7 @@ class HomeView(ctk.CTkFrame):
         footer.grid(row=2, column=0, sticky="ew")
         ctk.CTkLabel(
             footer,
-            text="Exam Kit v2.0  ·  CLI + GUI",
+            text="Report issues or contribute on GitHub: github.com/dolong226/exam-kit",
             font=T.FONT_SMALL,
             text_color=T.TEXT_SECONDARY,
         ).pack(side="right", padx=T.PADDING_OUTER, pady=6)

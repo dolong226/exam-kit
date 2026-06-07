@@ -18,7 +18,7 @@ TEXT_ERROR = "#e94560"       # Sai
 TEXT_WARNING = "#f5a623"     # Cảnh báo
 
 # ── Màu nút ──────────────────────────────────────────────────────────────────
-BTN_PRIMARY = "#e94560"          # Nút chính (bắt đầu, tiếp tục)
+BTN_PRIMARY = "#652a34"          # Nút chính (bắt đầu, tiếp tục)
 BTN_PRIMARY_HOVER = "#c73652"
 BTN_PRIMARY_TEXT = "#ffffff"
 
