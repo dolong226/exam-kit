@@ -55,7 +55,7 @@ def run(
 
     # Kiểm tra xem bộ đề có câu hỏi nào thuộc chế độ đã chọn không
     if not session.questions:
-        typer.secho(f"⚠️ Không tìm thấy câu hỏi nào thuộc chế độ '{quiz_mode.value}' trong file này.", fg=typer.colors.YELLOW)
+        typer.secho(f" Không tìm thấy câu hỏi nào thuộc chế độ '{quiz_mode.value}' trong file này.", fg=typer.colors.YELLOW)
         raise typer.Exit()
 
     # 4. Giao diện chào mừng
