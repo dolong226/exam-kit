@@ -1,8 +1,11 @@
-# Computer network Chương 2
+
+
+# === Định dạng Tự luận ===
+
 
 # Chương 2: Tầng ứng dụng
 
-Q1. Liệt kê năm ứng dụng Internet không độc quyền và các giao thức tầng ứng dụng mà chúng sử dụng.
+## Câu 1. Liệt kê năm ứng dụng Internet không độc quyền và các giao thức tầng ứng dụng mà chúng sử dụng.
 
 Web: HTTP; truyền file: FTTP; đăng nhập từ xa: Telnet; Network News: NTTP; email: SMTP.
 
@@ -40,9 +43,7 @@ Một giao thức sử dụng bắt tay nếu hai thực thể giao tiếp trao 
 ## Câu 11. Tại sao HTTP, FTP, SMTP và POP3 chạy trên TCP thay vì UDP?
 
 Nhắc lại:
-
 HTTP (HyperText Transfer Protocol)
-
 - Là giao thức dùng để truyền tải các trang web giữa trình duyệt và máy chủ web.
 - Cách hoạt động:
     - Khi truy cập: https://www.google.com
@@ -58,9 +59,7 @@ HTTP (HyperText Transfer Protocol)
     - Dùng TCP làm giao thức vận chuyển.
     - Mặc định cổng: HTTP (80), HTTPS (443).
 - Các phương thức phổ biến: GET (lấy dữ liệu), POST (gửi dữ liệu), PUT (cập nhật dữ liệu), DELETE (xóa dữ liệu).
-
 FTP (File Transfer Protocol)
-
 - FTP được thiết kế để truyền tệp giữa hai máy tính.
 - Cách hoạt động: FTP sử dụng hai kết nối TCP.
     - Control Connection: dùng gửi lệnh.
@@ -73,9 +72,7 @@ FTP (File Transfer Protocol)
 - Nhược điểm:
     - FTP truyền Username, Password, Dữ liệu dưới dạng plaintext, kẻ tấn công có thể nghe lén.
     - Ngày nay thường dùng: SFTP, FTPS.
-
 SMTP (Simple Mail Transfer Protocol)
-
 - Dùng để gửi email, không dùng để đọc.
 - Luồng hoạt động: Người gửi → SMTP Server Gmail → SMTP Server người nhận → Hộp thư người nhận.
 - Port 25.
@@ -92,9 +89,7 @@ SMTP (Simple Mail Transfer Protocol)
     - Push protocol (đẩy thư đi).
     - Dùng TCP.
     - Không dùng để đọc email.
-
 POP3 (Post Office Protocol Version 3)
-
 - Dùng để nhận email từ mail server về máy người dùng.
 - Luồng: Mail Server → POP3 → Outlook/Thunderbird.
 - Port 110.
@@ -105,21 +100,15 @@ POP3 (Post Office Protocol Version 3)
     - RETR 1
     - DELE 1
 - Nhược điểm:  Sau khi tải thư có thể bị xóa trên server; khó đồng bộ nhiều thiết bị.
-
 POP3 và SMTP phối hợp như nào?
-
 - Khi gửi email: Người gửi → SMTP → Mail Server → SMTP → Mail Server người nhận.
 - Khi nhận email: Mail Server → POP3 → Người nhận
-
 POP3 và IMAP?
-
 - IMAP ra đời để khắc phục hạn chế lớn nhất của POP3: email ngày nay có thể được đọc trên nhiều thiết bị.
 - IMAP (Internet Message Access Protocol) là giao thức cho phép truy cập và quản lý email trực tiếp trên mail server.
 - Khác với POP3, IMAP không mặc định tải toàn bộ thư về máy rồi xóa trên server.
 - Port: IMAP (143), IMAPS (993). Ngày nay hầu hết dùng 993.
-
 Trả lời:
-
 Các ứng dụng gắn với giao thức này yêu cầu tất cả dữ liệu ứng dụng phải được nhận theo đúng thứ tự và không bị mất mát. TCP cung cấp đảm bảo tính nguyên vẹn dữ liệu.
 
 ## Câu 12. Xem xét một trang web thương mai điện tử muốn lưu lại hồ sơ mua hàng của từng khách hàng. Mô tả cách thực hiện điều này bằng cookie.
@@ -130,11 +119,8 @@ Khi người dùng truy cập trang web lần đầu, trang web trả về một
 
 Nhắc lại:
 Web Caching là kỹ thuật lưu tạm dữ liệu web đã truy cập trước đó để lần sau không cần lấy lại từ server gốc, giúp tăng tốc độ truy cập và giảm tải mạng.
-
 Cache Hit và Cache Miss
-
 304 Not Modified: Không cần lấy dữ liệu mới vì không có chỉnh sửa.
-
 Trả lời: Web caching có thể mang nội dung mong muốn đến gần người dùng hơn, có thể là nằm trên cùng mạng LAN mà host của người dùng được kết nối. Web caching có thể làm giảm độ trễ cho tất cả các đối tượng, ngay cả những đối tượng không được lưu trong cache, vì caching làm giảm lưu lượng giao thông trên các đường truyền.
 
 ## Câu 15. Tại sao nói rằng FTP gửi thông tin điều khiển “out-of-band” (ngoài băng tần)?
@@ -157,28 +143,24 @@ Host của Alice → HTTP → Mail server của Alice → SMTP → Mail server c
 
 ** Với TCP, trước khi gửi được bất kỳ dữ liệu nào, client phải khởi tạo một phiên "bắt tay" (thiết lập kết nối) với server. Để việc bắt tay thành công, chương trình server buộc phải chạy trước để mở một socket đón đợi kết nối. Với UDP, hoàn toàn không có quá trình thiết lập kết nối nào cả. Client cứ việc đóng gói dữ liệu và đẩy vào mạng lưới gửi đến địa chỉ đích, không cần quan tâm server có đang chạy và sẵn sàng nhận hay không. Do đó client hoàn toàn có thể chạy trước (dù gói tin gửi đi có thể sẽ bị rớt/thất lạc nếu server chưa thực thi).
 
-## Câu 28. Đúng hai sai
+## Câu 28. Đúng hai sai.Một người dùng yêu cầu một trang Web bao gồm một đoạn văn bản và ba hình ảnh. Đối với trang này, client sẽ gửi một thông điệp yêu cầu (request) và nhận bốn thông điệp phản hồi (response). 
 
-a). Một người dùng yêu cầu một trang Web bao gồm một đoạn văn bản và ba hình ảnh. Đối với trang này, client sẽ gửi một thông điệp yêu cầu (request) và nhận bốn thông điệp phản hồi (response). 
-
-b)  Hai trang web riêng biệt có thể được gửi qua cùng một kết nối kiên trì (persistent connection).
-
-c) Với kết nối không kiên trì giữa trình duyệt và origin server, một phân đoạn TCP (TCP segment) đơn lẻ có thể mang hai thông điệp yêu cầu HTTP Khác nhau.
-
-d) Dòng header  “Date:” trong response của HTTP cho biết thời điểm đối tượng trong response được sửa đổi lần cuối.
-
-e) HTTP response không bao giờ có phần message body trống.
-
-a). Sai.
-
+Sai
 Persistent HTTP và non-persistent HTTP không khác nhau ở số lượng request. Chúng khác nhau ở số lượng kết nối TCP.
-
 Ví dụ trang web gồm 4 đối tượng, client vẫn phải gửi 4 request và nhận 4 response trong cả 2 trường hợp.
 
-b) Đúng. Đây là ưu điểm của persistent HTTP: nhiều đối tượng nằm trên cùng một server có thể được truyền tải qua một kết nối TCP duy nhất mà không cần đóng/mở liên tục.
+## Câu 28. Đúng hai sai. Hai trang web riêng biệt có thể được gửi qua cùng một kết nối kiên trì (persistent connection).
 
-c) Sai. Trong non-per connection, mỗi kết nối TCP chỉ phục vụ duy nhất một thông điệp yêu cầu và một thông điệp phản hồi, sau đó kết nối sẽ bị đóng lại. Do đó, một phân đoạn TCP không thể chứa hai yêu cầu HTTP khác nhau.
+Đúng. Đây là ưu điểm của persistent HTTP: nhiều đối tượng nằm trên cùng một server có thể được truyền tải qua một kết nối TCP duy nhất mà không cần đóng/mở liên tục.
 
-d) Sai. Dòng “Date:” biểu thị thời gian server tạo ra và gửi thông điệp phản hồi đó. Thời điểm đối tượng được sửa đổi lần cuối được biểu thị bằng dòng header Last-Modified:.
+## Câu 28. Đúng hai sai.Với kết nối không kiên trì giữa trình duyệt và origin server, một phân đoạn TCP (TCP segment) đơn lẻ có thể mang hai thông điệp yêu cầu HTTP Khác nhau.
 
-e) Sai. Có nhiều HTTP response có phần body trống, ví dụ như phản hồi có mã trạng thái 304 Not Modified hoặc 204 No Content.
+Sai. Trong non-per connection, mỗi kết nối TCP chỉ phục vụ duy nhất một thông điệp yêu cầu và một thông điệp phản hồi, sau đó kết nối sẽ bị đóng lại. Do đó, một phân đoạn TCP không thể chứa hai yêu cầu HTTP khác nhau.
+
+## Câu 28. Đúng hai sai.Dòng header  “Date:” trong response của HTTP cho biết thời điểm đối tượng trong response được sửa đổi lần cuối.
+
+Sai. Dòng “Date:” biểu thị thời gian server tạo ra và gửi thông điệp phản hồi đó. Thời điểm đối tượng được sửa đổi lần cuối được biểu thị bằng dòng header Last-Modified:.
+
+## Câu 28. Đúng hai sai.HTTP response không bao giờ có phần message body trống.
+
+Sai. Có nhiều HTTP response có phần body trống, ví dụ như phản hồi có mã trạng thái 304 Not Modified hoặc 204 No Content.
