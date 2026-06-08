@@ -34,14 +34,25 @@ def detect_mode_from_path(file_path: Union[str, Path]) -> Union[QuizMode, None]:
     return None
 
 
-def parse_testbank(file_path: Union[str, Path], shuffle: bool = False) -> TestBank:
+MAX_QUESTIONS = 50  # Giới hạn tối đa một phiên làm bài
+
+
+def parse_testbank(
+    file_path: Union[str, Path],
+    shuffle: bool = False,
+    shuffle_choices: bool = False,
+) -> TestBank:
     """
     Đọc file testbank và trả về TestBank.
     Hỗ trợ:
       - .yaml / .yml  → YAML parser
       - .md / .markdown → Markdown parser (tự động nhận dạng loại câu hỏi từ folder)
 
-    shuffle=True: xáo trộn thứ tự câu hỏi ngẫu nhiên.
+    shuffle=True        : xáo trộn thứ tự câu hỏi.
+    shuffle_choices=True: xáo trộn thứ tự đáp án A/B/C/D (chỉ trắc nghiệm).
+                          correct_answer được cập nhật lại đúng theo vị trí mới.
+
+    Giới hạn: nếu file có > MAX_QUESTIONS câu, chọn ngẫu nhiên MAX_QUESTIONS câu.
     """
     path = Path(file_path)
 
@@ -53,7 +64,6 @@ def parse_testbank(file_path: Union[str, Path], shuffle: bool = False) -> TestBa
     if suffix in (".yaml", ".yml"):
         tb = _parse_yaml(path)
     elif suffix in (".md", ".markdown"):
-        # Xác định mode từ folder cha
         mode = detect_mode_from_path(path)
         tb = _parse_markdown(path, mode=mode)
     else:
@@ -61,12 +71,50 @@ def parse_testbank(file_path: Union[str, Path], shuffle: bool = False) -> TestBa
             f"Định dạng file '{suffix}' không được hỗ trợ. Dùng .yaml hoặc .md"
         )
 
-    if shuffle:
-        questions = list(tb.questions)
-        random.shuffle(questions)
-        tb = TestBank(title=tb.title, description=tb.description, questions=questions)
+    questions = list(tb.questions)
 
+    # 1. Giới hạn số câu: nếu vượt MAX_QUESTIONS thì sample ngẫu nhiên
+    if len(questions) > MAX_QUESTIONS:
+        questions = random.sample(questions, MAX_QUESTIONS)
+
+    # 2. Xáo trộn thứ tự câu hỏi
+    if shuffle:
+        random.shuffle(questions)
+
+    # 3. Xáo trộn đáp án (chỉ trắc nghiệm) — phải cập nhật lại correct_answer
+    if shuffle_choices:
+        questions = [_shuffle_question_choices(q) for q in questions]
+
+    tb = TestBank(title=tb.title, description=tb.description, questions=questions)
     return tb
+
+
+def _shuffle_question_choices(q: Question) -> Question:
+    """
+    Xáo trộn danh sách choices của một câu trắc nghiệm.
+    Cập nhật correct_answer (index) theo vị trí mới của đáp án đúng.
+    Câu tự luận hoặc câu không có choices được trả về nguyên vẹn.
+    """
+    if q.type != QuizMode.MULTIPLE_CHOICE or not q.choices:
+        return q
+
+    old_correct_idx = int(q.correct_answer)
+    correct_text = q.choices[old_correct_idx]  # lưu lại text đáp án đúng
+
+    # Tạo list mới đã shuffle
+    new_choices = list(q.choices)
+    random.shuffle(new_choices)
+
+    new_correct_idx = new_choices.index(correct_text)  # tìm lại vị trí mới
+
+    return Question(
+        id=q.id,
+        type=q.type,
+        content=q.content,
+        choices=new_choices,
+        correct_answer=new_correct_idx,
+        explanation=q.explanation,
+    )
 
 
 # ── YAML parser ───────────────────────────────────────────────────────────────

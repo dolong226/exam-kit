@@ -20,7 +20,7 @@ def export_wrong_answers(result: QuizResult, output_path: Union[str, Path]) -> P
     ]
     
     if not result.wrong_responses:
-        markdown_lines.append("🎉 Tuyệt vời! Bạn đã hoàn thành xuất sắc và không làm sai câu nào.")
+        markdown_lines.append("Tuyệt vời! Bạn đã hoàn thành xuất sắc và không làm sai câu nào.")
     else:
         for idx, resp in enumerate(result.wrong_responses, 1):
             markdown_lines.append(f"Câu hỏi {idx}: {resp.question_content}")
