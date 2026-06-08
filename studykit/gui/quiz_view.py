@@ -120,6 +120,7 @@ class QuizView(ctk.CTkFrame):
         self._essay_answer_frame = None
         self._answered = False
         self._answer_revealed = False
+        self._reveal_btn.configure(state="normal")
         self._reveal_btn.grid_remove()
         self._next_btn.grid_remove()
 
