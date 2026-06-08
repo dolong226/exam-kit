@@ -1,4 +1,4 @@
-# 📚 Thư mục Test Banks
+# Thư mục Test Banks
 
 Thư mục này chứa các bộ đề (test bank) được sử dụng trong ứng dụng. Hệ thống sẽ tự động quét thư mục này để nạp dữ liệu mỗi khi chạy.
 

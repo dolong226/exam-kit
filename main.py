@@ -16,9 +16,9 @@ sys.path.insert(0, root_dir)
 def main() -> None:
     """
     Điểm khởi chạy chính.
-    - python main.py               CLI mode (Typer)
-    - python main.py --gui         GUI mode (CustomTkinter)
-    - python main.py gui           GUI mode (alias)
+    - python main.py              → CLI mode (Typer)
+    - python main.py --gui        → GUI mode (CustomTkinter)
+    - python main.py gui          → GUI mode (alias)
     """
     args = sys.argv[1:]
 
@@ -53,4 +53,4 @@ def _launch_gui() -> None:
 
 if __name__ == "__main__":
     main()
-
+    
