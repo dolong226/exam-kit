@@ -1,7 +1,4 @@
 # Bộ câu hỏi trắc nghiệm - Chapter 2: Application Layer
-> Dựa hoàn toàn trên nội dung sách *Computer Networking: A Top-Down Approach*  
-> Ngôn ngữ: Tiếng Việt | Thuật ngữ chuyên ngành giữ nguyên tiếng Anh  
-> Phân bổ: 40% Lý thuyết · 40% Vận dụng · 20% Vận dụng cao
 
 ---
 
