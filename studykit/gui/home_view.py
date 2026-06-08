@@ -217,7 +217,7 @@ class HomeView(ctk.CTkFrame):
 
         Divider(panel).grid(row=6, column=0, sticky="ew", padx=T.PADDING_INNER)
 
-        # Shuffle toggle
+        # Shuffle toggles
         ctk.CTkLabel(
             panel, text="Tùy chọn",
             font=T.FONT_SMALL, text_color=T.TEXT_SECONDARY,
@@ -233,11 +233,23 @@ class HomeView(ctk.CTkFrame):
             fg_color=T.BG_CARD,
             progress_color=T.BTN_PRIMARY,
             button_color=T.TEXT_PRIMARY,
-        ).grid(row=8, column=0, padx=T.PADDING_INNER, pady=(0, 12), sticky="w")
+        ).grid(row=8, column=0, padx=T.PADDING_INNER, pady=(0, 6), sticky="w")
+
+        self._shuffle_choices_var = ctk.BooleanVar(value=False)
+        ctk.CTkSwitch(
+            panel,
+            text="Xáo trộn đáp án A/B/C/D",
+            variable=self._shuffle_choices_var,
+            font=T.FONT_BODY,
+            text_color=T.TEXT_PRIMARY,
+            fg_color=T.BG_CARD,
+            progress_color=T.BTN_PRIMARY,
+            button_color=T.TEXT_PRIMARY,
+        ).grid(row=9, column=0, padx=T.PADDING_INNER, pady=(0, 12), sticky="w")
 
         # Spacer
-        ctk.CTkFrame(panel, fg_color="transparent", height=1).grid(row=9, column=0, sticky="ew")
-        panel.rowconfigure(9, weight=1)
+        ctk.CTkFrame(panel, fg_color="transparent", height=1).grid(row=10, column=0, sticky="ew")
+        panel.rowconfigure(10, weight=1)
 
         # Nút bắt đầu
         self._start_btn = AppButton(
@@ -245,7 +257,7 @@ class HomeView(ctk.CTkFrame):
             command=self._on_start_click,
             style="primary", width=180, height=T.BTN_HEIGHT,
         )
-        self._start_btn.grid(row=10, column=0, padx=T.PADDING_INNER, pady=T.PADDING_INNER)
+        self._start_btn.grid(row=11, column=0, padx=T.PADDING_INNER, pady=T.PADDING_INNER)
         self._start_btn.configure(state="disabled", fg_color="#555566")
 
     def _build_footer(self):
@@ -463,4 +475,5 @@ class HomeView(ctk.CTkFrame):
         if not self._selected_file:
             return
         shuffle = self._shuffle_var.get()
-        self._on_start(self._selected_file, shuffle)
+        shuffle_choices = self._shuffle_choices_var.get()
+        self._on_start(self._selected_file, shuffle, shuffle_choices)

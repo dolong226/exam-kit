@@ -32,6 +32,7 @@ class ExamKitApp(ctk.CTk):
 
         self._last_file: Optional[Path] = None
         self._last_shuffle: bool = False
+        self._last_shuffle_choices: bool = False
 
         self.columnconfigure(0, weight=1)
         self.rowconfigure(0, weight=1)
@@ -48,19 +49,20 @@ class ExamKitApp(ctk.CTk):
 
     def _show_home(self):
         self._clear_view()
-        # on_start signature: (file_path, shuffle)
+        # on_start signature: (file_path, shuffle, shuffle_choices)
         view = HomeView(self, on_start=self._start_quiz)
         view.grid(row=0, column=0, sticky="nsew")
         self._current_view = view
 
-    def _start_quiz(self, file_path: Path, shuffle: bool):
+    def _start_quiz(self, file_path: Path, shuffle: bool, shuffle_choices: bool):
         """Được gọi từ HomeView khi user bấm Bắt đầu."""
         self._last_file = file_path
         self._last_shuffle = shuffle
+        self._last_shuffle_choices = shuffle_choices
 
         # Parse testbank (shuffle nếu cần)
         try:
-            testbank = parse_testbank(file_path, shuffle=shuffle)
+            testbank = parse_testbank(file_path, shuffle=shuffle, shuffle_choices=shuffle_choices)
         except Exception as e:
             self._show_error(f"Lỗi nạp bộ đề:\n{e}")
             return
@@ -115,7 +117,7 @@ class ExamKitApp(ctk.CTk):
 
     def _retry_quiz(self):
         if self._last_file:
-            self._start_quiz(self._last_file, self._last_shuffle)
+            self._start_quiz(self._last_file, self._last_shuffle, self._last_shuffle_choices)
         else:
             self._show_home()
 
