@@ -2,7 +2,7 @@ from rich.console import Console
 from rich.panel import Panel
 from rich.table import Table
 from rich.prompt import Prompt
-from core.models import Question, QuizResult, UserResponse
+from studykit.core.models import Question, QuizResult, UserResponse
 
 # Khởi tạo một console dùng chung cho toàn bộ app
 console = Console()

@@ -13,7 +13,7 @@ import customtkinter as ctk
 from pathlib import Path
 from typing import Callable, List, Optional
 
-from core.parser import detect_mode_from_path
+from studykit.core.parser import detect_mode_from_path
 from . import theme as T
 from .widgets import AppButton, Card, SectionLabel, BodyLabel, Divider
 
@@ -455,7 +455,7 @@ class HomeView(ctk.CTkFrame):
         for i, fpath in enumerate(files):
             # Lấy thông tin số câu + mode (nếu có thể)
             try:
-                from core.parser import parse_testbank
+                from studykit.core.parser import parse_testbank
                 tb = parse_testbank(fpath)
                 count = len(tb.questions)
                 mode = detect_mode_from_path(fpath)
@@ -547,7 +547,7 @@ class HomeView(ctk.CTkFrame):
 
     def _update_selected_card(self, fpath: Path):
         try:
-            from core.parser import parse_testbank
+            from studykit.core.parser import parse_testbank
             tb = parse_testbank(fpath)
             count = len(tb.questions)
             mode = detect_mode_from_path(fpath)

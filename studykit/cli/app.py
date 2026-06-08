@@ -2,10 +2,10 @@ import typer
 from pathlib import Path
 from typing import Optional
 
-from core.models import QuizConfig, QuizMode
-from core.parser import parse_testbank
-from core.quiz_engine import QuizSession
-from core.reporter import export_wrong_answers
+from studykit.core.models import QuizConfig, QuizMode
+from studykit.core.parser import parse_testbank
+from studykit.core.quiz_engine import QuizSession
+from studykit.core.reporter import export_wrong_answers
 from cli import display
 
 # Khởi tạo Typer App

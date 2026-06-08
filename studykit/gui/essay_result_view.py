@@ -6,8 +6,8 @@ import customtkinter as ctk
 from pathlib import Path
 from typing import Callable, List
 
-from core.models import EssayGradeResult, GradeLevel
-from core.reporter import export_essay_grades
+from studykit.core.models import EssayGradeResult, GradeLevel
+from studykit.core.reporter import export_essay_grades
 from . import theme as T
 from .widgets import AppButton, Card, SectionLabel, Divider
 

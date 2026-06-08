@@ -7,9 +7,9 @@ import customtkinter as ctk
 from pathlib import Path
 from typing import Callable
 
-from core.models import QuizMode, UserResponse
-from core.quiz_engine import QuizSession
-from core.reporter import export_wrong_answers
+from studykit.core.models import QuizMode, UserResponse
+from studykit.core.quiz_engine import QuizSession
+from studykit.core.reporter import export_wrong_answers
 from . import theme as T
 from .widgets import AppButton, Card, SectionLabel, BodyLabel, Divider
 

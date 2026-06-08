@@ -11,8 +11,8 @@ Fixes so với bản cũ:
 import customtkinter as ctk
 from typing import Callable, List, Optional
 
-from core.models import Question, QuizMode, UserResponse
-from core.quiz_engine import QuizSession
+from studykit.core.models import Question, QuizMode, UserResponse
+from studykit.core.quiz_engine import QuizSession
 from . import theme as T
 from .widgets import (
     AppButton, Card, SectionLabel, BodyLabel,

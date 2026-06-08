@@ -14,8 +14,8 @@ import threading
 import customtkinter as ctk
 from typing import Callable, List, Optional
 
-from core.models import Question, GraderConfig, EssayGradeResult, GradeLevel
-from core.quiz_engine import QuizSession
+from studykit.core.models import Question, GraderConfig, EssayGradeResult, GradeLevel
+from studykit.core.quiz_engine import QuizSession
 from . import theme as T
 from .widgets import AppButton, Card, SectionLabel, BodyLabel, Divider, ProgressBar
 
@@ -206,7 +206,7 @@ class EssayView(ctk.CTkFrame):
 
         # Gọi grader trong thread riêng để không block UI
         def _grade_thread():
-            from core.grader import grade_essay
+            from studykit.core.grader import grade_essay
             result = grade_essay(self._current_q, user_text, self._grader_config)
             # Cập nhật UI phải chạy trên main thread
             self.after(0, lambda: self._on_grade_done(result))

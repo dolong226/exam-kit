@@ -6,9 +6,9 @@ import customtkinter as ctk
 from pathlib import Path
 from typing import Optional
 
-from core.models import QuizConfig, QuizMode
-from core.parser import parse_testbank, detect_mode_from_path
-from core.quiz_engine import QuizSession
+from studykit.core.models import QuizConfig, QuizMode
+from studykit.core.parser import parse_testbank, detect_mode_from_path
+from studykit.core.quiz_engine import QuizSession
 from . import theme as T
 from .home_view import HomeView
 from .quiz_view import QuizView
