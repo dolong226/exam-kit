@@ -5,7 +5,7 @@
 
 ---
 
-**Câu 27.** *(Dễ)* Trong packet switching, dữ liệu được chia thành các đơn vị nhỏ gọi là gì?
+**Câu 27.**  Trong packet switching, dữ liệu được chia thành các đơn vị nhỏ gọi là gì?
 
 A. Circuits  
 B. Frames  
@@ -17,7 +17,7 @@ D. Segments
 
 ---
 
-**Câu 28.** *(Dễ)* **Store-and-forward transmission** có nghĩa là gì?
+**Câu 28.**  **Store-and-forward transmission** có nghĩa là gì?
 
 A. Router gửi ngay từng bit nhận được mà không cần đợi  
 B. Router phải nhận toàn bộ packet trước khi bắt đầu truyền packet đó ra link tiếp theo  
@@ -29,7 +29,7 @@ D. Router gửi packet theo từng half-packet một
 
 ---
 
-**Câu 29.** *(Trung bình)* Cho một packet L bits truyền qua một link tốc độ R bps. Thời gian truyền packet (transmission delay) là bao nhiêu?
+**Câu 29.**  Cho một packet L bits truyền qua một link tốc độ R bps. Thời gian truyền packet (transmission delay) là bao nhiêu?
 
 A. R/L  
 B. L × R  
@@ -41,7 +41,7 @@ D. R − L
 
 ---
 
-**Câu 30.** *(Trung bình)* Nếu gửi 1 packet L bits từ source đến destination qua **N links**, mỗi link tốc độ R bps (store-and-forward), end-to-end delay (chỉ tính transmission) là bao nhiêu?
+**Câu 30.**  Nếu gửi 1 packet L bits từ source đến destination qua **N links**, mỗi link tốc độ R bps (store-and-forward), end-to-end delay (chỉ tính transmission) là bao nhiêu?
 
 A. L/R  
 B. N × L/R  
@@ -53,7 +53,7 @@ D. L/(N×R)
 
 ---
 
-**Câu 31.** *(Trung bình)* **Forwarding table** trong router dùng để làm gì?
+**Câu 31.**  **Forwarding table** trong router dùng để làm gì?
 
 A. Lưu trữ tạm thời các packet đang chờ truyền  
 B. Ánh xạ địa chỉ đích của packet đến outbound link phù hợp  
@@ -65,7 +65,7 @@ D. Quản lý băng thông của từng kết nối
 
 ---
 
-**Câu 32.** *(Trung bình)* **Routing protocols** có vai trò gì liên quan đến forwarding tables?
+**Câu 32.**  **Routing protocols** có vai trò gì liên quan đến forwarding tables?
 
 A. Mã hóa nội dung forwarding table để bảo mật  
 B. Tự động tính toán và cập nhật forwarding tables trong các routers  
@@ -77,7 +77,7 @@ D. Phân bổ địa chỉ IP cho các end systems
 
 ---
 
-**Câu 33.** *(Trung bình)* Packet loss xảy ra trong hoàn cảnh nào?
+**Câu 33.**  Packet loss xảy ra trong hoàn cảnh nào?
 
 A. Khi packet đi qua quá nhiều router  
 B. Khi buffer (output queue) tại router bị đầy và packet mới đến không có chỗ để chờ  
@@ -89,7 +89,7 @@ D. Khi propagation delay quá lớn
 
 ---
 
-**Câu 34.** *(Khó)* Vì sao packet switching hiệu quả hơn circuit switching khi traffic là **bursty**?
+**Câu 34.**  Vì sao packet switching hiệu quả hơn circuit switching khi traffic là **bursty**?
 
 A. Vì packet switching có tốc độ truyền vật lý cao hơn  
 B. Vì packet switching phân bổ bandwidth theo nhu cầu thực tế, không lãng phí tài nguyên dành riêng cho connection khi không có data  
@@ -101,7 +101,7 @@ D. Vì packet switching luôn đảm bảo đúng thứ tự gói tin
 
 ---
 
-**Câu 35.** *(Khó)* Trong ví dụ sách: link 1 Mbps, mỗi user cần 100 kbps khi active, xác suất active = 10%. Circuit switching chỉ hỗ trợ tối đa bao nhiêu user đồng thời?
+**Câu 35.**  Trong ví dụ sách: link 1 Mbps, mỗi user cần 100 kbps khi active, xác suất active = 10%. Circuit switching chỉ hỗ trợ tối đa bao nhiêu user đồng thời?
 
 A. 100 users  
 B. 35 users  
@@ -117,7 +117,7 @@ D. 1 user
 
 ---
 
-**Câu 36.** *(Dễ)* Trong circuit switching, tài nguyên mạng được xử lý như thế nào?
+**Câu 36.**  Trong circuit switching, tài nguyên mạng được xử lý như thế nào?
 
 A. Chia sẻ theo yêu cầu giữa tất cả các kết nối  
 B. Dành riêng (reserved) cho mỗi kết nối trong suốt thời gian phiên truyền  
@@ -129,7 +129,7 @@ D. Không cần dự trữ, dùng khi nào có khi đó
 
 ---
 
-**Câu 37.** *(Dễ)* Mạng điện thoại truyền thống là ví dụ điển hình của loại switching nào?
+**Câu 37.**  Mạng điện thoại truyền thống là ví dụ điển hình của loại switching nào?
 
 A. Packet switching  
 B. Circuit switching  
@@ -141,7 +141,7 @@ D. Label switching
 
 ---
 
-**Câu 38.** *(Trung bình)* FDM (Frequency-Division Multiplexing) và TDM (Time-Division Multiplexing) khác nhau cơ bản ở điểm nào?
+**Câu 38.**  FDM (Frequency-Division Multiplexing) và TDM (Time-Division Multiplexing) khác nhau cơ bản ở điểm nào?
 
 A. FDM chia theo thời gian, TDM chia theo tần số  
 B. FDM chia spectrum tần số cho mỗi kết nối, TDM chia thời gian thành các slot cho mỗi kết nối  
@@ -153,7 +153,7 @@ D. FDM và TDM đồng nghĩa với nhau
 
 ---
 
-**Câu 39.** *(Trung bình)* Trong TDM với 24 slots/frame và link rate 1.536 Mbps, mỗi circuit có transmission rate là bao nhiêu?
+**Câu 39.**  Trong TDM với 24 slots/frame và link rate 1.536 Mbps, mỗi circuit có transmission rate là bao nhiêu?
 
 A. 1.536 Mbps  
 B. 128 kbps  
@@ -165,7 +165,7 @@ D. 24 kbps
 
 ---
 
-**Câu 40.** *(Trung bình)* Nhược điểm chính của circuit switching là gì?
+**Câu 40.**  Nhược điểm chính của circuit switching là gì?
 
 A. Không đảm bảo được chất lượng dịch vụ  
 B. Lãng phí tài nguyên khi kết nối không truyền dữ liệu (idle periods)  
@@ -177,7 +177,7 @@ D. Phức tạp hơn packet switching để triển khai
 
 ---
 
-**Câu 41.** *(Khó)* Bài tập: Gửi file 640,000 bits qua mạng circuit-switched TDM, 24 slots/frame, link rate 1.536 Mbps, circuit setup time 500 ms. Tổng thời gian gửi file là bao nhiêu?
+**Câu 41.**  Bài tập: Gửi file 640,000 bits qua mạng circuit-switched TDM, 24 slots/frame, link rate 1.536 Mbps, circuit setup time 500 ms. Tổng thời gian gửi file là bao nhiêu?
 
 A. 5 giây  
 B. 10 giây  
@@ -193,7 +193,7 @@ D. 11 giây
 
 ---
 
-**Câu 42.** *(Dễ)* ISP là viết tắt của gì?
+**Câu 42.**  ISP là viết tắt của gì?
 
 A. Internet Security Protocol  
 B. Internet Service Provider  
@@ -205,7 +205,7 @@ D. International Standards for Protocols
 
 ---
 
-**Câu 43.** *(Dễ)* Tại sao Internet được gọi là "a network of networks"?
+**Câu 43.**  Tại sao Internet được gọi là "a network of networks"?
 
 A. Vì Internet dùng nhiều giao thức khác nhau  
 B. Vì các access ISPs phải được kết nối với nhau thông qua hệ thống phân cấp các ISP cấp cao hơn  
@@ -217,7 +217,7 @@ D. Vì Internet có nhiều topology khác nhau
 
 ---
 
-**Câu 44.** *(Trung bình)* Tier-1 ISP có đặc điểm nào sau đây?
+**Câu 44.**  Tier-1 ISP có đặc điểm nào sau đây?
 
 A. Phải trả phí cho các ISP cấp trên  
 B. Chỉ phục vụ một quốc gia duy nhất  
@@ -229,7 +229,7 @@ D. Là các ISP cung cấp dịch vụ trực tiếp cho người dùng cuối
 
 ---
 
-**Câu 45.** *(Trung bình)* **Peering** giữa hai ISP có nghĩa là gì và lợi ích của nó?
+**Câu 45.**  **Peering** giữa hai ISP có nghĩa là gì và lợi ích của nó?
 
 A. Một ISP mua dịch vụ của ISP kia  
 B. Hai ISP kết nối trực tiếp mạng của nhau, traffic đi thẳng không qua intermediary, thường không thanh toán cho nhau  
@@ -241,7 +241,7 @@ D. Một ISP thuê kết nối từ ISP kia với giá ưu đãi
 
 ---
 
-**Câu 46.** *(Trung bình)* IXP (Internet Exchange Point) là gì?
+**Câu 46.**  IXP (Internet Exchange Point) là gì?
 
 A. Điểm đặt các tier-1 ISP router chính  
 B. Địa điểm vật lý nơi nhiều ISP có thể kết nối và peer với nhau  
@@ -253,7 +253,7 @@ D. Thiết bị chuyển đổi giữa IPv4 và IPv6
 
 ---
 
-**Câu 47.** *(Trung bình)* **Multi-homing** của một ISP nghĩa là gì?
+**Câu 47.**  **Multi-homing** của một ISP nghĩa là gì?
 
 A. Đặt server tại nhiều địa điểm địa lý khác nhau  
 B. Kết nối đến hai hoặc nhiều provider ISP khác nhau để đảm bảo redundancy  
@@ -265,7 +265,7 @@ D. Sử dụng nhiều giao thức định tuyến cùng lúc
 
 ---
 
-**Câu 48.** *(Khó)* Google xây dựng mạng riêng (private network) và kết nối trực tiếp với lower-tier ISPs. Mục đích chiến lược chính là gì?
+**Câu 48.**  Google xây dựng mạng riêng (private network) và kết nối trực tiếp với lower-tier ISPs. Mục đích chiến lược chính là gì?
 
 A. Để tăng tốc độ download cho người dùng Google  
 B. Để bypass upper-tier ISPs, giảm chi phí trả cho tier-1 ISPs và kiểm soát tốt hơn cách dịch vụ được phân phối đến end users  

@@ -4,7 +4,7 @@
 
 ---
 
-**Câu 77.** *(Dễ)* ARPAnet — tiền thân của Internet — được phát triển bởi cơ quan nào?
+**Câu 77.**  ARPAnet — tiền thân của Internet — được phát triển bởi cơ quan nào?
 
 A. NASA  
 B. IEEE  
@@ -16,7 +16,7 @@ D. AT&T Bell Labs
 
 ---
 
-**Câu 78.** *(Dễ)* World Wide Web được phát minh bởi ai và ở đâu?
+**Câu 78.**  World Wide Web được phát minh bởi ai và ở đâu?
 
 A. Bill Gates tại Microsoft  
 B. Tim Berners-Lee tại CERN (1989-1991)  
@@ -28,7 +28,7 @@ D. Vint Cerf tại DARPA
 
 ---
 
-**Câu 79.** *(Trung bình)* Ai được ghi nhận là người phát minh packet switching và đóng góp lý thuyết gì?
+**Câu 79.**  Ai được ghi nhận là người phát minh packet switching và đóng góp lý thuyết gì?
 
 A. Vint Cerf — phát triển TCP/IP  
 B. Leonard Kleinrock — dùng queuing theory chứng minh hiệu quả của packet switching cho bursty traffic  
@@ -40,7 +40,7 @@ D. Robert Kahn — thiết kế ARPAnet
 
 ---
 
-**Câu 80.** *(Trung bình)* TCP/IP trở thành giao thức chuẩn của ARPAnet vào ngày nào, và có gì đặc biệt về sự kiện này?
+**Câu 80.**  TCP/IP trở thành giao thức chuẩn của ARPAnet vào ngày nào, và có gì đặc biệt về sự kiện này?
 
 A. 1/1/1980 — chuyển đổi từng bước trong 5 năm  
 B. 1/1/1983 — "flag day" event: tất cả hosts đồng loạt chuyển từ NCP sang TCP/IP  
@@ -56,7 +56,7 @@ D. 1/1/1995 — khi NSFNET bị giải thể
 
 ---
 
-**Câu 81.** *(Trung bình)* Tại sao Internet applications chạy trên **end systems** chứ không chạy trong **packet switches**?
+**Câu 81.**  Tại sao Internet applications chạy trên **end systems** chứ không chạy trong **packet switches**?
 
 A. Vì packet switches không đủ bộ nhớ để chạy ứng dụng  
 B. Vì packet switches chỉ quan tâm đến việc chuyển tiếp packet — không biết và không cần biết ứng dụng là gì; intelligence được đặt ở rìa mạng  
@@ -68,7 +68,7 @@ D. Vì packet switches chạy một hệ điều hành khác
 
 ---
 
-**Câu 82.** *(Trung bình)* Nếu traffic intensity La/R = 0 (gần không), queuing delay sẽ như thế nào?
+**Câu 82.**  Nếu traffic intensity La/R = 0 (gần không), queuing delay sẽ như thế nào?
 
 A. Queuing delay rất lớn  
 B. Queuing delay gần bằng 0, vì packets hiếm khi tìm thấy packet nào trong queue  
@@ -80,7 +80,7 @@ D. Queuing delay không xác định được
 
 ---
 
-**Câu 83.** *(Trung bình)* Trong ví dụ Traceroute, tại sao RTT đến Router 6 có thể lớn hơn RTT đến Router 7 (router xa hơn)?
+**Câu 83.**  Trong ví dụ Traceroute, tại sao RTT đến Router 6 có thể lớn hơn RTT đến Router 7 (router xa hơn)?
 
 A. Vì Router 7 nhanh hơn Router 6  
 B. Vì queuing delay tại router biến thiên theo thời gian — packet đến Router 6 có thể gặp queue dài hơn packet sau đó đến Router 7  
@@ -92,7 +92,7 @@ D. Vì Router 6 ở xa hơn về mặt địa lý
 
 ---
 
-**Câu 84.** *(Trung bình)* Khi nhiều users cùng tải file từ cùng một server qua một **shared bottleneck link**, điều gì xảy ra với throughput của mỗi user?
+**Câu 84.**  Khi nhiều users cùng tải file từ cùng một server qua một **shared bottleneck link**, điều gì xảy ra với throughput của mỗi user?
 
 A. Mỗi user vẫn nhận được throughput tối đa  
 B. Throughput của mỗi user giảm xuống vì bandwidth bottleneck link bị chia sẻ cho nhiều flows  
@@ -104,7 +104,7 @@ D. Throughput không thay đổi vì routers tự cân bằng
 
 ---
 
-**Câu 85.** *(Khó)* Tại sao packet switching không phù hợp với **real-time applications** (như video call) theo lập luận của những người phản đối?
+**Câu 85.**  Tại sao packet switching không phù hợp với **real-time applications** (như video call) theo lập luận của những người phản đối?
 
 A. Vì packet switching không hỗ trợ video codec  
 B. Vì queuing delay trong packet switching biến thiên và không dự đoán được (variable/unpredictable), gây jitter ảnh hưởng đến chất lượng real-time  
@@ -116,7 +116,7 @@ D. Vì packet switching không đảm bảo packet đến đúng thứ tự
 
 ---
 
-**Câu 86.** *(Khó)* Tại sao "botnet" lại đặc biệt nguy hiểm trong các cuộc tấn công mạng?
+**Câu 86.**  Tại sao "botnet" lại đặc biệt nguy hiểm trong các cuộc tấn công mạng?
 
 A. Vì botnet dùng mã hóa không thể bẻ phá  
 B. Vì attacker kiểm soát hàng nghìn compromised hosts — aggregate traffic đủ để tấn công DDoS hiệu quả, đồng thời traffic đến từ nhiều địa chỉ IP khác nhau nên khó block  
@@ -128,7 +128,7 @@ D. Vì botnet tự động vá lỗi của chính nó
 
 ---
 
-**Câu 87.** *(Khó)* Bài tập: Gửi 3 packets, mỗi packet L bits, từ source qua 1 router đến destination, link rate R bps. Sử dụng store-and-forward. Tổng thời gian để destination nhận **cả 3 packets** là bao nhiêu?
+**Câu 87.**  Bài tập: Gửi 3 packets, mỗi packet L bits, từ source qua 1 router đến destination, link rate R bps. Sử dụng store-and-forward. Tổng thời gian để destination nhận **cả 3 packets** là bao nhiêu?
 
 A. 3L/R  
 B. 4L/R  
@@ -140,7 +140,7 @@ D. 2L/R
 
 ---
 
-**Câu 88.** *(Khó)* Tại sao chi phí lao động lắp đặt (installation labor cost) thường quan trọng hơn chi phí vật liệu cáp (physical medium cost)?
+**Câu 88.**  Tại sao chi phí lao động lắp đặt (installation labor cost) thường quan trọng hơn chi phí vật liệu cáp (physical medium cost)?
 
 A. Vì vật liệu cáp rất đắt  
 B. Vì chi phí lao động lắp đặt có thể cao hơn gấp bậc (orders of magnitude) so với chi phí vật liệu — dẫn đến việc builders thường lắp cả nhiều loại cáp ngay từ đầu  
@@ -156,7 +156,7 @@ D. Vì labor cost cố định còn material cost biến thiên
 
 ---
 
-**Câu 89.** *(Trung bình)* So sánh: Đặc điểm nào phân biệt rõ nhất packet switching với circuit switching?
+**Câu 89.**  So sánh: Đặc điểm nào phân biệt rõ nhất packet switching với circuit switching?
 
 A. Packet switching nhanh hơn về tốc độ vật lý  
 B. Packet switching phân bổ tài nguyên theo nhu cầu (on-demand), không dành riêng trước; circuit switching dành riêng tài nguyên cho toàn bộ thời gian connection  
@@ -168,7 +168,7 @@ D. Packet switching không thể xử lý voice traffic
 
 ---
 
-**Câu 90.** *(Trung bình)* Tại sao **propagation delay** có thể là yếu tố dominant trong mạng WAN (Wide Area Network)?
+**Câu 90.**  Tại sao **propagation delay** có thể là yếu tố dominant trong mạng WAN (Wide Area Network)?
 
 A. Vì WAN có nhiều routers hơn LAN  
 B. Vì khoảng cách địa lý lớn → d/s lớn, trong khi transmission delay nhỏ khi bandwidth cao và packet nhỏ  
@@ -180,7 +180,7 @@ D. Vì propagation speed thấp hơn trong môi trường WAN
 
 ---
 
-**Câu 91.** *(Trung bình)* Tại sao "access network" thường là **bottleneck** trong Internet ngày nay, chứ không phải network core?
+**Câu 91.**  Tại sao "access network" thường là **bottleneck** trong Internet ngày nay, chứ không phải network core?
 
 A. Vì core routers xử lý chậm  
 B. Vì core Internet được over-provisioned với high-speed links, trong khi access links (DSL, cable) có bandwidth thấp hơn nhiều  
@@ -192,7 +192,7 @@ D. Vì core network không hỗ trợ packet switching
 
 ---
 
-**Câu 92.** *(Khó)* Trong mô hình phân cấp ISP, quan hệ "customer-provider" hoạt động như thế nào về mặt tài chính?
+**Câu 92.**  Trong mô hình phân cấp ISP, quan hệ "customer-provider" hoạt động như thế nào về mặt tài chính?
 
 A. Tier-1 ISPs trả tiền cho regional ISPs để có quyền truy cập  
 B. ISP cấp thấp hơn (customer) trả tiền cho ISP cấp cao hơn (provider) để có kết nối Internet toàn cầu; tier-1 ISPs không trả tiền cho ai  
@@ -204,7 +204,7 @@ D. Chỉ end users trả tiền, các ISP kết nối miễn phí với nhau
 
 ---
 
-**Câu 93.** *(Khó)* Điểm mấu chốt nào giải thích tại sao Internet có thể scale đến hàng tỷ thiết bị?
+**Câu 93.**  Điểm mấu chốt nào giải thích tại sao Internet có thể scale đến hàng tỷ thiết bị?
 
 A. Vì có đủ địa chỉ IPv4  
 B. Vì kiến trúc phân tầng ISP, routing tự động, và nguyên lý packet switching cho phép mạng phát triển dần mà không cần thiết kế lại từ đầu  
@@ -216,7 +216,7 @@ D. Vì băng thông vật lý tăng đủ nhanh
 
 ---
 
-**Câu 94.** *(Khó)* Nếu thiết kế một ứng dụng cần **đảm bảo độ trễ thấp và ổn định** (như điều khiển robot từ xa), bạn sẽ gặp thách thức gì với Internet hiện tại?
+**Câu 94.**  Nếu thiết kế một ứng dụng cần **đảm bảo độ trễ thấp và ổn định** (như điều khiển robot từ xa), bạn sẽ gặp thách thức gì với Internet hiện tại?
 
 A. Internet không hỗ trợ kết nối real-time  
 B. Queuing delay biến thiên (jitter) trong packet-switched Internet không đảm bảo được delay bound — Internet chỉ cung cấp best-effort service, không có guarantee  
@@ -228,7 +228,7 @@ D. Routing protocols không đủ nhanh cho real-time
 
 ---
 
-**Câu 95.** *(Trung bình)* Sự kiện nào đánh dấu sự chuyển đổi Internet từ học thuật sang thương mại?
+**Câu 95.**  Sự kiện nào đánh dấu sự chuyển đổi Internet từ học thuật sang thương mại?
 
 A. Sự ra đời của email năm 1972  
 B. Năm 1991, NSFNET gỡ bỏ hạn chế sử dụng cho mục đích thương mại; năm 1995, NSFNET bị giải thể, backbone do commercial ISPs đảm nhận  
@@ -240,7 +240,7 @@ D. Sự xuất hiện của browser Mosaic năm 1993
 
 ---
 
-**Câu 96.** *(Trung bình)* DNS (Domain Name System) thuộc tầng nào và có chức năng gì?
+**Câu 96.**  DNS (Domain Name System) thuộc tầng nào và có chức năng gì?
 
 A. Transport layer — phân giải địa chỉ MAC  
 B. Application layer — dịch hostname (như www.google.com) thành địa chỉ IP 32-bit  
@@ -252,7 +252,7 @@ D. Link layer — phân giải địa chỉ vật lý
 
 ---
 
-**Câu 97.** *(Trung bình)* **VoIP** (Voice-over-IP) gặp thách thức gì liên quan đến **packetization delay**?
+**Câu 97.**  **VoIP** (Voice-over-IP) gặp thách thức gì liên quan đến **packetization delay**?
 
 A. Không đủ băng thông để truyền audio  
 B. Phía gửi phải tích lũy đủ một lượng encoded speech để fill một packet trước khi gửi — thời gian chờ này (packetization delay) ảnh hưởng đến chất lượng cảm nhận của người dùng  
@@ -264,7 +264,7 @@ D. Mã hóa audio quá phức tạp cho end systems
 
 ---
 
-**Câu 98.** *(Khó)* Bài tập: Gửi file F = 32 Mb (megabits) từ server (Rs = 2 Mbps) đến client (Rc = 1 Mbps), core network rất nhanh. Thời gian download ước tính là bao nhiêu?
+**Câu 98.**  Bài tập: Gửi file F = 32 Mb (megabits) từ server (Rs = 2 Mbps) đến client (Rc = 1 Mbps), core network rất nhanh. Thời gian download ước tính là bao nhiêu?
 
 A. 16 giây  
 B. 32 giây  
@@ -276,7 +276,7 @@ D. 8 giây
 
 ---
 
-**Câu 99.** *(Khó)* Tại sao end-to-end delay công thức là **N × (dproc + dtrans + dprop)** chứ không phải đơn giản là dtrans?
+**Câu 99.**  Tại sao end-to-end delay công thức là **N × (dproc + dtrans + dprop)** chứ không phải đơn giản là dtrans?
 
 A. Vì dtrans chỉ tính được ở tầng Physical  
 B. Vì packet phải đi qua N links với N-1 routers — tại mỗi hop đều có đủ 3 loại delay; chúng tích lũy (accumulate) qua mỗi node  
@@ -288,7 +288,7 @@ D. Vì N là số packet, không phải số link
 
 ---
 
-**Câu 100.** *(Khó)* Xem xét toàn bộ chương 1: Nguyên lý thiết kế nào giải thích **hầu hết** các quyết định kiến trúc của Internet?
+**Câu 100.**  Xem xét toàn bộ chương 1: Nguyên lý thiết kế nào giải thích **hầu hết** các quyết định kiến trúc của Internet?
 
 A. Tốc độ tối đa là ưu tiên duy nhất  
 B. Sự kết hợp của: packet switching để dùng tài nguyên hiệu quả, layered protocols để modularity, network of networks để scalability, và end-to-end principle để đặt intelligence ở edges — tất cả cùng tạo nên một hệ thống linh hoạt, scalable và open  

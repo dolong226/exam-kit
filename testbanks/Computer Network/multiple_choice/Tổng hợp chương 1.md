@@ -4,7 +4,7 @@
 
 ---
 
-**Câu 1.** *(Dễ)* Trong thuật ngữ mạng, tất cả các thiết bị kết nối vào Internet — từ máy tính đến điện thoại thông minh — được gọi chung là gì?
+**Câu 1.**  Trong thuật ngữ mạng, tất cả các thiết bị kết nối vào Internet — từ máy tính đến điện thoại thông minh — được gọi chung là gì?
 
 A. Routers  
 B. Packet switches  
@@ -16,7 +16,7 @@ D. ISPs
 
 ---
 
-**Câu 2.** *(Dễ)* Internet có thể được mô tả theo hai góc độ chính. Góc độ nào sau đây là KHÔNG đúng?
+**Câu 2.**  Internet có thể được mô tả theo hai góc độ chính. Góc độ nào sau đây là KHÔNG đúng?
 
 A. Mô tả theo phần cứng và phần mềm cấu thành (nuts-and-bolts)  
 B. Mô tả như một hạ tầng cung cấp dịch vụ cho các ứng dụng phân tán  
@@ -28,7 +28,7 @@ D. Cả A và B đều là cách mô tả đúng
 
 ---
 
-**Câu 3.** *(Dễ)* TCP/IP là gì?
+**Câu 3.**  TCP/IP là gì?
 
 A. Một loại phần cứng router  
 B. Hai giao thức quan trọng nhất của Internet, quy định cách gói tin được gửi và nhận  
@@ -40,7 +40,7 @@ D. Một tổ chức quản lý tên miền Internet
 
 ---
 
-**Câu 4.** *(Dễ)* Tổ chức nào chịu trách nhiệm phát triển các tiêu chuẩn Internet (Internet standards)?
+**Câu 4.**  Tổ chức nào chịu trách nhiệm phát triển các tiêu chuẩn Internet (Internet standards)?
 
 A. IEEE  
 B. ISO  
@@ -52,7 +52,7 @@ D. W3C
 
 ---
 
-**Câu 5.** *(Dễ)* RFC là viết tắt của gì và có vai trò gì?
+**Câu 5.**  RFC là viết tắt của gì và có vai trò gì?
 
 A. Remote File Copy — dùng để sao chép file từ xa  
 B. Requests for Comments — tài liệu định nghĩa các giao thức Internet  
@@ -64,7 +64,7 @@ D. Reliable Frame Check — kiểm tra tính toàn vẹn của frame
 
 ---
 
-**Câu 6.** *(Dễ)* Ứng dụng phân tán (distributed application) là gì?
+**Câu 6.**  Ứng dụng phân tán (distributed application) là gì?
 
 A. Ứng dụng chỉ chạy trên một máy chủ duy nhất  
 B. Ứng dụng liên quan đến nhiều end systems trao đổi dữ liệu với nhau  
@@ -76,7 +76,7 @@ D. Ứng dụng không cần kết nối Internet
 
 ---
 
-**Câu 7.** *(Dễ)* API (Application Programming Interface) trong ngữ cảnh Internet có vai trò gì?
+**Câu 7.**  API (Application Programming Interface) trong ngữ cảnh Internet có vai trò gì?
 
 A. Tăng tốc độ truyền dữ liệu vật lý  
 B. Quy định tập luật mà chương trình gửi phải tuân theo để Internet chuyển dữ liệu đến đích  
@@ -88,7 +88,7 @@ D. Phân bổ địa chỉ IP cho các end systems
 
 ---
 
-**Câu 8.** *(Trung bình)* Điều gì phân biệt **clients** và **servers** trong mạng?
+**Câu 8.**  Điều gì phân biệt **clients** và **servers** trong mạng?
 
 A. Clients có tốc độ xử lý cao hơn servers  
 B. Clients thường là thiết bị người dùng cuối (PC, smartphone), servers là máy lưu trữ và phân phối nội dung  
@@ -100,7 +100,7 @@ D. Clients và servers là hai thuật ngữ hoàn toàn đồng nghĩa
 
 ---
 
-**Câu 9.** *(Trung bình)* Một **protocol** trong mạng máy tính định nghĩa những gì?
+**Câu 9.**  Một **protocol** trong mạng máy tính định nghĩa những gì?
 
 A. Chỉ định dạng của các gói tin  
 B. Chỉ thứ tự gửi tin nhắn  
@@ -112,7 +112,7 @@ D. Chỉ cách mã hóa dữ liệu
 
 ---
 
-**Câu 10.** *(Trung bình)* Tại sao việc có protocol standards (tiêu chuẩn giao thức) lại quan trọng?
+**Câu 10.**  Tại sao việc có protocol standards (tiêu chuẩn giao thức) lại quan trọng?
 
 A. Để tăng tốc độ truyền dữ liệu  
 B. Để mọi người đồng ý về những gì mỗi protocol làm, cho phép tạo ra các hệ thống có thể tương tác (interoperate) với nhau  
@@ -128,7 +128,7 @@ D. Để hạn chế số lượng thiết bị kết nối Internet
 
 ---
 
-**Câu 11.** *(Dễ)* **Access network** là gì?
+**Câu 11.**  **Access network** là gì?
 
 A. Mạng kết nối các router lõi với nhau  
 B. Mạng kết nối vật lý một end system với router đầu tiên trên đường đến đích  
@@ -140,7 +140,7 @@ D. Mạng quản lý địa chỉ IP toàn cầu
 
 ---
 
-**Câu 12.** *(Dễ)* DSL (Digital Subscriber Line) sử dụng hạ tầng nào để truyền dữ liệu?
+**Câu 12.**  DSL (Digital Subscriber Line) sử dụng hạ tầng nào để truyền dữ liệu?
 
 A. Cáp đồng trục (coaxial cable)  
 B. Cáp quang (fiber optic)  
@@ -152,7 +152,7 @@ D. Sóng vô tuyến (radio spectrum)
 
 ---
 
-**Câu 13.** *(Dễ)* HFC (Hybrid Fiber Coax) là gì?
+**Câu 13.**  HFC (Hybrid Fiber Coax) là gì?
 
 A. Công nghệ kết hợp DSL và WiFi  
 B. Hệ thống kết hợp cáp quang từ trung tâm đến điểm phân phối khu phố, và cáp đồng trục đến từng hộ gia đình  
@@ -164,7 +164,7 @@ D. Tiêu chuẩn mã hóa dữ liệu trong mạng cable
 
 ---
 
-**Câu 14.** *(Trung bình)* Tại sao DSL được gọi là **asymmetric** (bất đối xứng)?
+**Câu 14.**  Tại sao DSL được gọi là **asymmetric** (bất đối xứng)?
 
 A. Vì DSL chỉ hỗ trợ một chiều truyền dữ liệu  
 B. Vì tốc độ downstream và upstream khác nhau (downstream cao hơn upstream)  
@@ -176,7 +176,7 @@ D. Vì DSL không đảm bảo băng thông cố định
 
 ---
 
-**Câu 15.** *(Trung bình)* Đặc điểm nào sau đây là của cable Internet access nhưng KHÔNG phải của DSL?
+**Câu 15.**  Đặc điểm nào sau đây là của cable Internet access nhưng KHÔNG phải của DSL?
 
 A. Dùng đường truyền vật lý có sẵn  
 B. Tốc độ bị ảnh hưởng bởi khoảng cách đến trung tâm  
@@ -188,7 +188,7 @@ D. Hỗ trợ truyền đồng thời dữ liệu và tín hiệu khác
 
 ---
 
-**Câu 16.** *(Trung bình)* FTTH (Fiber to the Home) khác với DSL và cable ở điểm căn bản nào?
+**Câu 16.**  FTTH (Fiber to the Home) khác với DSL và cable ở điểm căn bản nào?
 
 A. FTTH rẻ hơn nhưng chậm hơn  
 B. FTTH cung cấp đường cáp quang trực tiếp từ CO đến tận nhà, cho tốc độ tiềm năng gigabit  
@@ -200,7 +200,7 @@ D. FTTH không cần thiết bị đầu cuối tại nhà
 
 ---
 
-**Câu 17.** *(Trung bình)* Sự khác biệt cơ bản giữa WiFi (IEEE 802.11) và 3G/4G/LTE là gì?
+**Câu 17.**  Sự khác biệt cơ bản giữa WiFi (IEEE 802.11) và 3G/4G/LTE là gì?
 
 A. WiFi nhanh hơn 3G/4G trong mọi trường hợp  
 B. WiFi có phạm vi kết nối vài chục mét, còn 3G/4G phủ hàng chục km từ base station  
@@ -212,7 +212,7 @@ D. WiFi và 3G/4G dùng cùng một tần số vô tuyến
 
 ---
 
-**Câu 18.** *(Trung bình)* Ethernet trong môi trường doanh nghiệp cung cấp tốc độ kết nối điển hình là bao nhiêu cho user?
+**Câu 18.**  Ethernet trong môi trường doanh nghiệp cung cấp tốc độ kết nối điển hình là bao nhiêu cho user?
 
 A. 1 Mbps  
 B. 10 Mbps  
@@ -224,7 +224,7 @@ D. 1 Gbps
 
 ---
 
-**Câu 19.** *(Khó)* Tại sao khoảng cách giữa nhà và CO (Central Office) lại giới hạn hiệu quả của DSL?
+**Câu 19.**  Tại sao khoảng cách giữa nhà và CO (Central Office) lại giới hạn hiệu quả của DSL?
 
 A. Vì chi phí đường dây tăng theo khoảng cách  
 B. Vì tín hiệu analog trên đường dây đồng bị suy giảm (attenuation) theo khoảng cách, làm giảm tốc độ khả dụng  
@@ -236,7 +236,7 @@ D. Vì tần số được phân bổ thay đổi theo khoảng cách
 
 ---
 
-**Câu 20.** *(Khó)* Trong PON (Passive Optical Network) — kiến trúc FTTH — tại sao gọi là "passive"?
+**Câu 20.**  Trong PON (Passive Optical Network) — kiến trúc FTTH — tại sao gọi là "passive"?
 
 A. Vì không cần nguồn điện để vận hành  
 B. Vì splitter quang không cần nguồn điện chủ động — nó chia tín hiệu quang theo cơ chế thụ động  
@@ -252,7 +252,7 @@ D. Vì PON không cần thiết bị tại nhà
 
 ---
 
-**Câu 21.** *(Dễ)* Phương tiện vật lý được chia thành hai loại chính. Đó là:
+**Câu 21.**  Phương tiện vật lý được chia thành hai loại chính. Đó là:
 
 A. Digital media và analog media  
 B. Guided media và unguided media  
@@ -264,7 +264,7 @@ D. Fast media và slow media
 
 ---
 
-**Câu 22.** *(Dễ)* Loại phương tiện vật lý nào phổ biến nhất và rẻ nhất trong mạng có dây?
+**Câu 22.**  Loại phương tiện vật lý nào phổ biến nhất và rẻ nhất trong mạng có dây?
 
 A. Coaxial cable  
 B. Fiber optic  
@@ -276,7 +276,7 @@ D. Satellite link
 
 ---
 
-**Câu 23.** *(Trung bình)* Vì sao dây đồng trong twisted pair được xoắn lại với nhau?
+**Câu 23.**  Vì sao dây đồng trong twisted pair được xoắn lại với nhau?
 
 A. Để tăng độ bền cơ học  
 B. Để giảm nhiễu điện từ (electromagnetic interference) từ các cặp dây gần đó  
@@ -288,7 +288,7 @@ D. Để dễ nhận biết trong bó cáp
 
 ---
 
-**Câu 24.** *(Trung bình)* Fiber optic có ưu điểm gì so với copper wire khi truyền dữ liệu đường dài?
+**Câu 24.**  Fiber optic có ưu điểm gì so với copper wire khi truyền dữ liệu đường dài?
 
 A. Fiber rẻ hơn và dễ lắp đặt hơn  
 B. Fiber có tốc độ cao hơn, không bị nhiễu điện từ, và suy giảm tín hiệu rất thấp trong khoảng cách tới 100 km  
@@ -300,7 +300,7 @@ D. Fiber hỗ trợ kết nối không dây
 
 ---
 
-**Câu 25.** *(Trung bình)* Tại sao fiber optic chưa thay thế hoàn toàn copper wire trong mạng nội bộ (LAN)?
+**Câu 25.**  Tại sao fiber optic chưa thay thế hoàn toàn copper wire trong mạng nội bộ (LAN)?
 
 A. Fiber chậm hơn copper trong khoảng cách ngắn  
 B. Chi phí thiết bị quang (transmitters, receivers, switches) vẫn còn cao cho short-haul deployment  
@@ -312,7 +312,7 @@ D. Fiber không thể truyền dữ liệu ở tốc độ LAN
 
 ---
 
-**Câu 26.** *(Khó)* Geostationary satellite (vệ tinh địa tĩnh) có propagation delay khoảng bao nhiêu và tại sao?
+**Câu 26.**  Geostationary satellite (vệ tinh địa tĩnh) có propagation delay khoảng bao nhiêu và tại sao?
 
 A. ~10 ms, vì vệ tinh ở gần Trái Đất  
 B. ~280 ms, vì quỹ đạo ở độ cao ~36,000 km và sóng truyền với tốc độ ánh sáng  
@@ -328,7 +328,7 @@ D. ~500 ms, vì phải đi qua nhiều relay station
 
 ---
 
-**Câu 27.** *(Dễ)* Trong packet switching, dữ liệu được chia thành các đơn vị nhỏ gọi là gì?
+**Câu 27.**  Trong packet switching, dữ liệu được chia thành các đơn vị nhỏ gọi là gì?
 
 A. Circuits  
 B. Frames  
@@ -340,7 +340,7 @@ D. Segments
 
 ---
 
-**Câu 28.** *(Dễ)* **Store-and-forward transmission** có nghĩa là gì?
+**Câu 28.**  **Store-and-forward transmission** có nghĩa là gì?
 
 A. Router gửi ngay từng bit nhận được mà không cần đợi  
 B. Router phải nhận toàn bộ packet trước khi bắt đầu truyền packet đó ra link tiếp theo  
@@ -352,7 +352,7 @@ D. Router gửi packet theo từng half-packet một
 
 ---
 
-**Câu 29.** *(Trung bình)* Cho một packet L bits truyền qua một link tốc độ R bps. Thời gian truyền packet (transmission delay) là bao nhiêu?
+**Câu 29.**  Cho một packet L bits truyền qua một link tốc độ R bps. Thời gian truyền packet (transmission delay) là bao nhiêu?
 
 A. R/L  
 B. L × R  
@@ -364,7 +364,7 @@ D. R − L
 
 ---
 
-**Câu 30.** *(Trung bình)* Nếu gửi 1 packet L bits từ source đến destination qua **N links**, mỗi link tốc độ R bps (store-and-forward), end-to-end delay (chỉ tính transmission) là bao nhiêu?
+**Câu 30.**  Nếu gửi 1 packet L bits từ source đến destination qua **N links**, mỗi link tốc độ R bps (store-and-forward), end-to-end delay (chỉ tính transmission) là bao nhiêu?
 
 A. L/R  
 B. N × L/R  
@@ -376,7 +376,7 @@ D. L/(N×R)
 
 ---
 
-**Câu 31.** *(Trung bình)* **Forwarding table** trong router dùng để làm gì?
+**Câu 31.**  **Forwarding table** trong router dùng để làm gì?
 
 A. Lưu trữ tạm thời các packet đang chờ truyền  
 B. Ánh xạ địa chỉ đích của packet đến outbound link phù hợp  
@@ -388,7 +388,7 @@ D. Quản lý băng thông của từng kết nối
 
 ---
 
-**Câu 32.** *(Trung bình)* **Routing protocols** có vai trò gì liên quan đến forwarding tables?
+**Câu 32.**  **Routing protocols** có vai trò gì liên quan đến forwarding tables?
 
 A. Mã hóa nội dung forwarding table để bảo mật  
 B. Tự động tính toán và cập nhật forwarding tables trong các routers  
@@ -400,7 +400,7 @@ D. Phân bổ địa chỉ IP cho các end systems
 
 ---
 
-**Câu 33.** *(Trung bình)* Packet loss xảy ra trong hoàn cảnh nào?
+**Câu 33.**  Packet loss xảy ra trong hoàn cảnh nào?
 
 A. Khi packet đi qua quá nhiều router  
 B. Khi buffer (output queue) tại router bị đầy và packet mới đến không có chỗ để chờ  
@@ -412,7 +412,7 @@ D. Khi propagation delay quá lớn
 
 ---
 
-**Câu 34.** *(Khó)* Vì sao packet switching hiệu quả hơn circuit switching khi traffic là **bursty**?
+**Câu 34.**  Vì sao packet switching hiệu quả hơn circuit switching khi traffic là **bursty**?
 
 A. Vì packet switching có tốc độ truyền vật lý cao hơn  
 B. Vì packet switching phân bổ bandwidth theo nhu cầu thực tế, không lãng phí tài nguyên dành riêng cho connection khi không có data  
@@ -424,7 +424,7 @@ D. Vì packet switching luôn đảm bảo đúng thứ tự gói tin
 
 ---
 
-**Câu 35.** *(Khó)* Trong ví dụ sách: link 1 Mbps, mỗi user cần 100 kbps khi active, xác suất active = 10%. Circuit switching chỉ hỗ trợ tối đa bao nhiêu user đồng thời?
+**Câu 35.**  Trong ví dụ sách: link 1 Mbps, mỗi user cần 100 kbps khi active, xác suất active = 10%. Circuit switching chỉ hỗ trợ tối đa bao nhiêu user đồng thời?
 
 A. 100 users  
 B. 35 users  
@@ -440,7 +440,7 @@ D. 1 user
 
 ---
 
-**Câu 36.** *(Dễ)* Trong circuit switching, tài nguyên mạng được xử lý như thế nào?
+**Câu 36.**  Trong circuit switching, tài nguyên mạng được xử lý như thế nào?
 
 A. Chia sẻ theo yêu cầu giữa tất cả các kết nối  
 B. Dành riêng (reserved) cho mỗi kết nối trong suốt thời gian phiên truyền  
@@ -452,7 +452,7 @@ D. Không cần dự trữ, dùng khi nào có khi đó
 
 ---
 
-**Câu 37.** *(Dễ)* Mạng điện thoại truyền thống là ví dụ điển hình của loại switching nào?
+**Câu 37.**  Mạng điện thoại truyền thống là ví dụ điển hình của loại switching nào?
 
 A. Packet switching  
 B. Circuit switching  
@@ -464,7 +464,7 @@ D. Label switching
 
 ---
 
-**Câu 38.** *(Trung bình)* FDM (Frequency-Division Multiplexing) và TDM (Time-Division Multiplexing) khác nhau cơ bản ở điểm nào?
+**Câu 38.**  FDM (Frequency-Division Multiplexing) và TDM (Time-Division Multiplexing) khác nhau cơ bản ở điểm nào?
 
 A. FDM chia theo thời gian, TDM chia theo tần số  
 B. FDM chia spectrum tần số cho mỗi kết nối, TDM chia thời gian thành các slot cho mỗi kết nối  
@@ -476,7 +476,7 @@ D. FDM và TDM đồng nghĩa với nhau
 
 ---
 
-**Câu 39.** *(Trung bình)* Trong TDM với 24 slots/frame và link rate 1.536 Mbps, mỗi circuit có transmission rate là bao nhiêu?
+**Câu 39.**  Trong TDM với 24 slots/frame và link rate 1.536 Mbps, mỗi circuit có transmission rate là bao nhiêu?
 
 A. 1.536 Mbps  
 B. 128 kbps  
@@ -488,7 +488,7 @@ D. 24 kbps
 
 ---
 
-**Câu 40.** *(Trung bình)* Nhược điểm chính của circuit switching là gì?
+**Câu 40.**  Nhược điểm chính của circuit switching là gì?
 
 A. Không đảm bảo được chất lượng dịch vụ  
 B. Lãng phí tài nguyên khi kết nối không truyền dữ liệu (idle periods)  
@@ -500,7 +500,7 @@ D. Phức tạp hơn packet switching để triển khai
 
 ---
 
-**Câu 41.** *(Khó)* Bài tập: Gửi file 640,000 bits qua mạng circuit-switched TDM, 24 slots/frame, link rate 1.536 Mbps, circuit setup time 500 ms. Tổng thời gian gửi file là bao nhiêu?
+**Câu 41.**  Bài tập: Gửi file 640,000 bits qua mạng circuit-switched TDM, 24 slots/frame, link rate 1.536 Mbps, circuit setup time 500 ms. Tổng thời gian gửi file là bao nhiêu?
 
 A. 5 giây  
 B. 10 giây  
@@ -516,7 +516,7 @@ D. 11 giây
 
 ---
 
-**Câu 42.** *(Dễ)* ISP là viết tắt của gì?
+**Câu 42.**  ISP là viết tắt của gì?
 
 A. Internet Security Protocol  
 B. Internet Service Provider  
@@ -528,7 +528,7 @@ D. International Standards for Protocols
 
 ---
 
-**Câu 43.** *(Dễ)* Tại sao Internet được gọi là "a network of networks"?
+**Câu 43.**  Tại sao Internet được gọi là "a network of networks"?
 
 A. Vì Internet dùng nhiều giao thức khác nhau  
 B. Vì các access ISPs phải được kết nối với nhau thông qua hệ thống phân cấp các ISP cấp cao hơn  
@@ -540,7 +540,7 @@ D. Vì Internet có nhiều topology khác nhau
 
 ---
 
-**Câu 44.** *(Trung bình)* Tier-1 ISP có đặc điểm nào sau đây?
+**Câu 44.**  Tier-1 ISP có đặc điểm nào sau đây?
 
 A. Phải trả phí cho các ISP cấp trên  
 B. Chỉ phục vụ một quốc gia duy nhất  
@@ -552,7 +552,7 @@ D. Là các ISP cung cấp dịch vụ trực tiếp cho người dùng cuối
 
 ---
 
-**Câu 45.** *(Trung bình)* **Peering** giữa hai ISP có nghĩa là gì và lợi ích của nó?
+**Câu 45.**  **Peering** giữa hai ISP có nghĩa là gì và lợi ích của nó?
 
 A. Một ISP mua dịch vụ của ISP kia  
 B. Hai ISP kết nối trực tiếp mạng của nhau, traffic đi thẳng không qua intermediary, thường không thanh toán cho nhau  
@@ -564,7 +564,7 @@ D. Một ISP thuê kết nối từ ISP kia với giá ưu đãi
 
 ---
 
-**Câu 46.** *(Trung bình)* IXP (Internet Exchange Point) là gì?
+**Câu 46.**  IXP (Internet Exchange Point) là gì?
 
 A. Điểm đặt các tier-1 ISP router chính  
 B. Địa điểm vật lý nơi nhiều ISP có thể kết nối và peer với nhau  
@@ -576,7 +576,7 @@ D. Thiết bị chuyển đổi giữa IPv4 và IPv6
 
 ---
 
-**Câu 47.** *(Trung bình)* **Multi-homing** của một ISP nghĩa là gì?
+**Câu 47.**  **Multi-homing** của một ISP nghĩa là gì?
 
 A. Đặt server tại nhiều địa điểm địa lý khác nhau  
 B. Kết nối đến hai hoặc nhiều provider ISP khác nhau để đảm bảo redundancy  
@@ -588,7 +588,7 @@ D. Sử dụng nhiều giao thức định tuyến cùng lúc
 
 ---
 
-**Câu 48.** *(Khó)* Google xây dựng mạng riêng (private network) và kết nối trực tiếp với lower-tier ISPs. Mục đích chiến lược chính là gì?
+**Câu 48.**  Google xây dựng mạng riêng (private network) và kết nối trực tiếp với lower-tier ISPs. Mục đích chiến lược chính là gì?
 
 A. Để tăng tốc độ download cho người dùng Google  
 B. Để bypass upper-tier ISPs, giảm chi phí trả cho tier-1 ISPs và kiểm soát tốt hơn cách dịch vụ được phân phối đến end users  
@@ -604,7 +604,7 @@ D. Để tăng bảo mật dữ liệu người dùng
 
 ---
 
-**Câu 49.** *(Dễ)* Bốn thành phần của **nodal delay** tại một router là gì?
+**Câu 49.**  Bốn thành phần của **nodal delay** tại một router là gì?
 
 A. Transmission, propagation, queuing, processing  
 B. Encoding, decoding, routing, forwarding  
@@ -616,7 +616,7 @@ D. Packetization, fragmentation, reassembly, delivery
 
 ---
 
-**Câu 50.** *(Dễ)* **Propagation delay** phụ thuộc vào yếu tố nào?
+**Câu 50.**  **Propagation delay** phụ thuộc vào yếu tố nào?
 
 A. Kích thước packet và tốc độ link  
 B. Khoảng cách giữa hai node và tốc độ lan truyền của tín hiệu trên medium  
@@ -628,7 +628,7 @@ D. Tốc độ xử lý của CPU router
 
 ---
 
-**Câu 51.** *(Dễ)* **Processing delay** tại router bao gồm những gì?
+**Câu 51.**  **Processing delay** tại router bao gồm những gì?
 
 A. Thời gian packet chờ trong queue  
 B. Thời gian kiểm tra header packet, xác định outbound link, kiểm tra lỗi bit  
@@ -640,7 +640,7 @@ D. Thời gian tín hiệu lan truyền qua cáp
 
 ---
 
-**Câu 52.** *(Trung bình)* Điểm khác biệt căn bản giữa **transmission delay** và **propagation delay** là gì?
+**Câu 52.**  Điểm khác biệt căn bản giữa **transmission delay** và **propagation delay** là gì?
 
 A. Transmission delay phụ thuộc khoảng cách, propagation delay phụ thuộc kích thước packet  
 B. Transmission delay là thời gian đẩy bits vào link (phụ thuộc L và R), propagation delay là thời gian bit đi từ A đến B (phụ thuộc khoảng cách và tốc độ vật lý)  
@@ -652,7 +652,7 @@ D. Transmission delay chỉ xuất hiện ở wireless, propagation delay chỉ 
 
 ---
 
-**Câu 53.** *(Trung bình)* **Traffic intensity** (La/R) là gì và ý nghĩa khi nó tiến đến 1?
+**Câu 53.**  **Traffic intensity** (La/R) là gì và ý nghĩa khi nó tiến đến 1?
 
 A. Tỷ lệ bandwidth được sử dụng; khi = 1 có nghĩa mạng hoàn toàn nhàn rỗi  
 B. Tỷ lệ giữa tốc độ đến trung bình và tốc độ truyền; khi tiến đến 1, queuing delay tăng nhanh tiến về vô cực  
@@ -664,7 +664,7 @@ D. Số lượng user đang hoạt động cùng lúc
 
 ---
 
-**Câu 54.** *(Trung bình)* **Bottleneck link** trong một đường truyền là gì?
+**Câu 54.**  **Bottleneck link** trong một đường truyền là gì?
 
 A. Link bị hỏng hóc  
 B. Link có transmission rate thấp nhất trên đường từ source đến destination, quyết định throughput end-to-end  
@@ -676,7 +676,7 @@ D. Link đầu tiên trong đường truyền
 
 ---
 
-**Câu 55.** *(Trung bình)* **Instantaneous throughput** và **average throughput** khác nhau thế nào?
+**Câu 55.**  **Instantaneous throughput** và **average throughput** khác nhau thế nào?
 
 A. Instantaneous throughput tính theo giờ, average tính theo giây  
 B. Instantaneous là tốc độ nhận dữ liệu tại một thời điểm cụ thể; average là F/T (tổng bits ÷ tổng thời gian truyền)  
@@ -688,7 +688,7 @@ D. Chỉ có average throughput có ý nghĩa thực tiễn
 
 ---
 
-**Câu 56.** *(Trung bình)* Bài tập: Server có Rs = 2 Mbps, client có Rc = 1 Mbps, core network rất nhanh. Throughput end-to-end là bao nhiêu?
+**Câu 56.**  Bài tập: Server có Rs = 2 Mbps, client có Rc = 1 Mbps, core network rất nhanh. Throughput end-to-end là bao nhiêu?
 
 A. 2 Mbps  
 B. 1.5 Mbps  
@@ -700,7 +700,7 @@ D. 3 Mbps
 
 ---
 
-**Câu 57.** *(Khó)* Queuing delay **khác** với ba loại delay còn lại ở đặc điểm nào?
+**Câu 57.**  Queuing delay **khác** với ba loại delay còn lại ở đặc điểm nào?
 
 A. Queuing delay không tồn tại trong thực tế  
 B. Queuing delay là loại delay duy nhất biến thiên từ packet đến packet và phụ thuộc vào mức độ congestion — không thể xác định chính xác như các delay khác  
@@ -712,7 +712,7 @@ D. Queuing delay luôn nhỏ hơn transmission delay
 
 ---
 
-**Câu 58.** *(Khó)* Traceroute hoạt động theo nguyên lý nào?
+**Câu 58.**  Traceroute hoạt động theo nguyên lý nào?
 
 A. Gửi một packet duy nhất đến destination và đo tổng round-trip time  
 B. Gửi N bộ 3 special packets đến destination, mỗi router n trên đường sẽ gửi lại message cho source khi nhận packet thứ n; source đo round-trip time đến từng router  
@@ -728,7 +728,7 @@ D. Phân tích header của packets để tái tạo route
 
 ---
 
-**Câu 59.** *(Dễ)* Internet protocol stack gồm bao nhiêu tầng và đó là những tầng nào (từ trên xuống)?
+**Câu 59.**  Internet protocol stack gồm bao nhiêu tầng và đó là những tầng nào (từ trên xuống)?
 
 A. 7 tầng: Application, Presentation, Session, Transport, Network, Data Link, Physical  
 B. 5 tầng: Application, Transport, Network, Link, Physical  
@@ -740,7 +740,7 @@ D. 3 tầng: Application, Network, Physical
 
 ---
 
-**Câu 60.** *(Dễ)* Tầng **Application** chứa những giao thức nào? (Chọn đáp án đầy đủ nhất)
+**Câu 60.**  Tầng **Application** chứa những giao thức nào? (Chọn đáp án đầy đủ nhất)
 
 A. TCP và UDP  
 B. IP và ICMP  
@@ -752,7 +752,7 @@ D. Ethernet và WiFi
 
 ---
 
-**Câu 61.** *(Dễ)* Tầng **Transport** của Internet có hai giao thức chính. Đó là:
+**Câu 61.**  Tầng **Transport** của Internet có hai giao thức chính. Đó là:
 
 A. HTTP và SMTP  
 B. IP và ICMP  
@@ -764,7 +764,7 @@ D. Ethernet và WiFi
 
 ---
 
-**Câu 62.** *(Dễ)* Đơn vị dữ liệu (PDU) của mỗi tầng trong Internet stack là gì?
+**Câu 62.**  Đơn vị dữ liệu (PDU) của mỗi tầng trong Internet stack là gì?
 
 A. Application: message; Transport: segment; Network: datagram; Link: frame  
 B. Application: packet; Transport: frame; Network: segment; Link: bit  
@@ -776,7 +776,7 @@ D. Tất cả các tầng đều gọi là packet
 
 ---
 
-**Câu 63.** *(Trung bình)* Tại sao layered architecture lại có lợi trong thiết kế hệ thống mạng?
+**Câu 63.**  Tại sao layered architecture lại có lợi trong thiết kế hệ thống mạng?
 
 A. Vì nó giảm tổng độ trễ của mạng  
 B. Vì nó cho phép thay đổi implementation của một tầng mà không ảnh hưởng các tầng khác, miễn là service interface giữ nguyên — tạo modularity  
@@ -788,7 +788,7 @@ D. Vì nó loại bỏ nhu cầu cần protocols
 
 ---
 
-**Câu 64.** *(Trung bình)* **Encapsulation** trong quá trình truyền dữ liệu là gì?
+**Câu 64.**  **Encapsulation** trong quá trình truyền dữ liệu là gì?
 
 A. Mã hóa dữ liệu để bảo mật  
 B. Mỗi tầng thêm header information của mình vào payload từ tầng trên, tạo thành đơn vị dữ liệu của tầng đó  
@@ -800,7 +800,7 @@ D. Phân mảnh dữ liệu thành các packet nhỏ hơn
 
 ---
 
-**Câu 65.** *(Trung bình)* Router trong Internet thực hiện những tầng nào của protocol stack?
+**Câu 65.**  Router trong Internet thực hiện những tầng nào của protocol stack?
 
 A. Chỉ tầng Physical  
 B. Physical, Link, và Network (tầng 1-3)  
@@ -812,7 +812,7 @@ D. Physical và Link (tầng 1-2)
 
 ---
 
-**Câu 66.** *(Trung bình)* OSI model có thêm 2 tầng so với Internet stack. Đó là tầng nào và chúng có vai trò gì?
+**Câu 66.**  OSI model có thêm 2 tầng so với Internet stack. Đó là tầng nào và chúng có vai trò gì?
 
 A. Security layer và Management layer  
 B. Presentation layer (xử lý dữ liệu: nén, mã hóa, định dạng) và Session layer (đồng bộ, quản lý phiên truyền)  
@@ -824,7 +824,7 @@ D. Authentication layer và Authorization layer
 
 ---
 
-**Câu 67.** *(Khó)* Một nhược điểm tiềm ẩn của protocol layering là gì?
+**Câu 67.**  Một nhược điểm tiềm ẩn của protocol layering là gì?
 
 A. Layering luôn làm giảm tốc độ mạng  
 B. Một tầng có thể duplicate chức năng của tầng dưới (e.g., error recovery ở cả link layer và end-to-end), và thông tin cần thiết có thể bị ẩn ở tầng khác  
@@ -836,7 +836,7 @@ D. Layering làm phức tạp quá trình debugging
 
 ---
 
-**Câu 68.** *(Khó)* Trong quá trình **de-encapsulation**, điều gì xảy ra tại mỗi tầng ở phía nhận?
+**Câu 68.**  Trong quá trình **de-encapsulation**, điều gì xảy ra tại mỗi tầng ở phía nhận?
 
 A. Header được thêm vào để truyền lên tầng trên  
 B. Header của tầng đó được gỡ ra (stripped), payload được chuyển lên tầng cao hơn để xử lý  
@@ -852,7 +852,7 @@ D. Packet bị chia nhỏ thêm
 
 ---
 
-**Câu 69.** *(Dễ)* **Malware** là gì?
+**Câu 69.**  **Malware** là gì?
 
 A. Phần mềm diệt virus  
 B. Phần mềm độc hại có thể xâm nhập thiết bị và gây hại (xóa file, thu thập thông tin, tấn công hệ thống khác)  
@@ -864,7 +864,7 @@ D. Hệ thống phát hiện xâm nhập
 
 ---
 
-**Câu 70.** *(Dễ)* Sự khác biệt giữa **virus** và **worm** là gì?
+**Câu 70.**  Sự khác biệt giữa **virus** và **worm** là gì?
 
 A. Virus nhanh hơn worm trong việc lây lan  
 B. Virus cần tương tác người dùng (ví dụ: mở file đính kèm), worm tự động lan truyền không cần can thiệp của người dùng  
@@ -876,7 +876,7 @@ D. Virus và worm hoàn toàn giống nhau
 
 ---
 
-**Câu 71.** *(Dễ)* **DoS attack** (Denial-of-Service) có mục tiêu là gì?
+**Câu 71.**  **DoS attack** (Denial-of-Service) có mục tiêu là gì?
 
 A. Đánh cắp dữ liệu từ server  
 B. Làm cho server hoặc hạ tầng mạng không thể phục vụ người dùng hợp lệ  
@@ -888,7 +888,7 @@ D. Giả mạo danh tính người dùng
 
 ---
 
-**Câu 72.** *(Trung bình)* Ba loại DoS attack chính là gì?
+**Câu 72.**  Ba loại DoS attack chính là gì?
 
 A. Phishing, spoofing, sniffing  
 B. Vulnerability attack, bandwidth flooding, connection flooding  
@@ -900,7 +900,7 @@ D. Man-in-the-middle, replay attack, SQL injection
 
 ---
 
-**Câu 73.** *(Trung bình)* **Distributed DoS (DDoS)** khác với DoS thông thường ở điểm nào?
+**Câu 73.**  **Distributed DoS (DDoS)** khác với DoS thông thường ở điểm nào?
 
 A. DDoS tấn công nhiều target cùng lúc, DoS chỉ tấn công một target  
 B. Attacker điều khiển nhiều compromised hosts (botnet) để đồng loạt tấn công một target, làm khó phát hiện và ngăn chặn hơn  
@@ -912,7 +912,7 @@ D. DDoS dùng mã hóa, DoS không dùng
 
 ---
 
-**Câu 74.** *(Trung bình)* **Packet sniffing** là gì và tại sao nó nguy hiểm?
+**Câu 74.**  **Packet sniffing** là gì và tại sao nó nguy hiểm?
 
 A. Kỹ thuật tăng tốc truyền packet  
 B. Passive receiver ghi lại bản sao của mọi packet đi qua kênh truyền, có thể thu thập thông tin nhạy cảm như password, dữ liệu cá nhân  
@@ -924,7 +924,7 @@ D. Cách phát hiện và xóa malware
 
 ---
 
-**Câu 75.** *(Trung bình)* **IP spoofing** là gì?
+**Câu 75.**  **IP spoofing** là gì?
 
 A. Làm giả tốc độ kết nối IP  
 B. Tạo packet với source IP address giả mạo để giả dạng một địa chỉ đáng tin cậy  
@@ -936,7 +936,7 @@ D. Chặn và chỉnh sửa IP packets trên đường truyền
 
 ---
 
-**Câu 76.** *(Khó)* Tại sao Internet ban đầu lại thiếu các cơ chế bảo mật?
+**Câu 76.**  Tại sao Internet ban đầu lại thiếu các cơ chế bảo mật?
 
 A. Vì kỹ thuật mã hóa chưa được phát minh  
 B. Vì Internet được thiết kế dựa trên mô hình "mutually trusting users attached to a transparent network" — không có nhu cầu bảo mật theo thiết kế gốc  
@@ -952,7 +952,7 @@ D. Vì các quốc gia không thể thống nhất về tiêu chuẩn bảo mậ
 
 ---
 
-**Câu 77.** *(Dễ)* ARPAnet — tiền thân của Internet — được phát triển bởi cơ quan nào?
+**Câu 77.**  ARPAnet — tiền thân của Internet — được phát triển bởi cơ quan nào?
 
 A. NASA  
 B. IEEE  
@@ -964,7 +964,7 @@ D. AT&T Bell Labs
 
 ---
 
-**Câu 78.** *(Dễ)* World Wide Web được phát minh bởi ai và ở đâu?
+**Câu 78.**  World Wide Web được phát minh bởi ai và ở đâu?
 
 A. Bill Gates tại Microsoft  
 B. Tim Berners-Lee tại CERN (1989-1991)  
@@ -976,7 +976,7 @@ D. Vint Cerf tại DARPA
 
 ---
 
-**Câu 79.** *(Trung bình)* Ai được ghi nhận là người phát minh packet switching và đóng góp lý thuyết gì?
+**Câu 79.**  Ai được ghi nhận là người phát minh packet switching và đóng góp lý thuyết gì?
 
 A. Vint Cerf — phát triển TCP/IP  
 B. Leonard Kleinrock — dùng queuing theory chứng minh hiệu quả của packet switching cho bursty traffic  
@@ -988,7 +988,7 @@ D. Robert Kahn — thiết kế ARPAnet
 
 ---
 
-**Câu 80.** *(Trung bình)* TCP/IP trở thành giao thức chuẩn của ARPAnet vào ngày nào, và có gì đặc biệt về sự kiện này?
+**Câu 80.**  TCP/IP trở thành giao thức chuẩn của ARPAnet vào ngày nào, và có gì đặc biệt về sự kiện này?
 
 A. 1/1/1980 — chuyển đổi từng bước trong 5 năm  
 B. 1/1/1983 — "flag day" event: tất cả hosts đồng loạt chuyển từ NCP sang TCP/IP  
@@ -1004,7 +1004,7 @@ D. 1/1/1995 — khi NSFNET bị giải thể
 
 ---
 
-**Câu 81.** *(Trung bình)* Tại sao Internet applications chạy trên **end systems** chứ không chạy trong **packet switches**?
+**Câu 81.**  Tại sao Internet applications chạy trên **end systems** chứ không chạy trong **packet switches**?
 
 A. Vì packet switches không đủ bộ nhớ để chạy ứng dụng  
 B. Vì packet switches chỉ quan tâm đến việc chuyển tiếp packet — không biết và không cần biết ứng dụng là gì; intelligence được đặt ở rìa mạng  
@@ -1016,7 +1016,7 @@ D. Vì packet switches chạy một hệ điều hành khác
 
 ---
 
-**Câu 82.** *(Trung bình)* Nếu traffic intensity La/R = 0 (gần không), queuing delay sẽ như thế nào?
+**Câu 82.**  Nếu traffic intensity La/R = 0 (gần không), queuing delay sẽ như thế nào?
 
 A. Queuing delay rất lớn  
 B. Queuing delay gần bằng 0, vì packets hiếm khi tìm thấy packet nào trong queue  
@@ -1028,7 +1028,7 @@ D. Queuing delay không xác định được
 
 ---
 
-**Câu 83.** *(Trung bình)* Trong ví dụ Traceroute, tại sao RTT đến Router 6 có thể lớn hơn RTT đến Router 7 (router xa hơn)?
+**Câu 83.**  Trong ví dụ Traceroute, tại sao RTT đến Router 6 có thể lớn hơn RTT đến Router 7 (router xa hơn)?
 
 A. Vì Router 7 nhanh hơn Router 6  
 B. Vì queuing delay tại router biến thiên theo thời gian — packet đến Router 6 có thể gặp queue dài hơn packet sau đó đến Router 7  
@@ -1040,7 +1040,7 @@ D. Vì Router 6 ở xa hơn về mặt địa lý
 
 ---
 
-**Câu 84.** *(Trung bình)* Khi nhiều users cùng tải file từ cùng một server qua một **shared bottleneck link**, điều gì xảy ra với throughput của mỗi user?
+**Câu 84.**  Khi nhiều users cùng tải file từ cùng một server qua một **shared bottleneck link**, điều gì xảy ra với throughput của mỗi user?
 
 A. Mỗi user vẫn nhận được throughput tối đa  
 B. Throughput của mỗi user giảm xuống vì bandwidth bottleneck link bị chia sẻ cho nhiều flows  
@@ -1052,7 +1052,7 @@ D. Throughput không thay đổi vì routers tự cân bằng
 
 ---
 
-**Câu 85.** *(Khó)* Tại sao packet switching không phù hợp với **real-time applications** (như video call) theo lập luận của những người phản đối?
+**Câu 85.**  Tại sao packet switching không phù hợp với **real-time applications** (như video call) theo lập luận của những người phản đối?
 
 A. Vì packet switching không hỗ trợ video codec  
 B. Vì queuing delay trong packet switching biến thiên và không dự đoán được (variable/unpredictable), gây jitter ảnh hưởng đến chất lượng real-time  
@@ -1064,7 +1064,7 @@ D. Vì packet switching không đảm bảo packet đến đúng thứ tự
 
 ---
 
-**Câu 86.** *(Khó)* Tại sao "botnet" lại đặc biệt nguy hiểm trong các cuộc tấn công mạng?
+**Câu 86.**  Tại sao "botnet" lại đặc biệt nguy hiểm trong các cuộc tấn công mạng?
 
 A. Vì botnet dùng mã hóa không thể bẻ phá  
 B. Vì attacker kiểm soát hàng nghìn compromised hosts — aggregate traffic đủ để tấn công DDoS hiệu quả, đồng thời traffic đến từ nhiều địa chỉ IP khác nhau nên khó block  
@@ -1076,7 +1076,7 @@ D. Vì botnet tự động vá lỗi của chính nó
 
 ---
 
-**Câu 87.** *(Khó)* Bài tập: Gửi 3 packets, mỗi packet L bits, từ source qua 1 router đến destination, link rate R bps. Sử dụng store-and-forward. Tổng thời gian để destination nhận **cả 3 packets** là bao nhiêu?
+**Câu 87.**  Bài tập: Gửi 3 packets, mỗi packet L bits, từ source qua 1 router đến destination, link rate R bps. Sử dụng store-and-forward. Tổng thời gian để destination nhận **cả 3 packets** là bao nhiêu?
 
 A. 3L/R  
 B. 4L/R  
@@ -1088,7 +1088,7 @@ D. 2L/R
 
 ---
 
-**Câu 88.** *(Khó)* Tại sao chi phí lao động lắp đặt (installation labor cost) thường quan trọng hơn chi phí vật liệu cáp (physical medium cost)?
+**Câu 88.**  Tại sao chi phí lao động lắp đặt (installation labor cost) thường quan trọng hơn chi phí vật liệu cáp (physical medium cost)?
 
 A. Vì vật liệu cáp rất đắt  
 B. Vì chi phí lao động lắp đặt có thể cao hơn gấp bậc (orders of magnitude) so với chi phí vật liệu — dẫn đến việc builders thường lắp cả nhiều loại cáp ngay từ đầu  
@@ -1104,7 +1104,7 @@ D. Vì labor cost cố định còn material cost biến thiên
 
 ---
 
-**Câu 89.** *(Trung bình)* So sánh: Đặc điểm nào phân biệt rõ nhất packet switching với circuit switching?
+**Câu 89.**  So sánh: Đặc điểm nào phân biệt rõ nhất packet switching với circuit switching?
 
 A. Packet switching nhanh hơn về tốc độ vật lý  
 B. Packet switching phân bổ tài nguyên theo nhu cầu (on-demand), không dành riêng trước; circuit switching dành riêng tài nguyên cho toàn bộ thời gian connection  
@@ -1116,7 +1116,7 @@ D. Packet switching không thể xử lý voice traffic
 
 ---
 
-**Câu 90.** *(Trung bình)* Tại sao **propagation delay** có thể là yếu tố dominant trong mạng WAN (Wide Area Network)?
+**Câu 90.**  Tại sao **propagation delay** có thể là yếu tố dominant trong mạng WAN (Wide Area Network)?
 
 A. Vì WAN có nhiều routers hơn LAN  
 B. Vì khoảng cách địa lý lớn → d/s lớn, trong khi transmission delay nhỏ khi bandwidth cao và packet nhỏ  
@@ -1128,7 +1128,7 @@ D. Vì propagation speed thấp hơn trong môi trường WAN
 
 ---
 
-**Câu 91.** *(Trung bình)* Tại sao "access network" thường là **bottleneck** trong Internet ngày nay, chứ không phải network core?
+**Câu 91.**  Tại sao "access network" thường là **bottleneck** trong Internet ngày nay, chứ không phải network core?
 
 A. Vì core routers xử lý chậm  
 B. Vì core Internet được over-provisioned với high-speed links, trong khi access links (DSL, cable) có bandwidth thấp hơn nhiều  
@@ -1140,7 +1140,7 @@ D. Vì core network không hỗ trợ packet switching
 
 ---
 
-**Câu 92.** *(Khó)* Trong mô hình phân cấp ISP, quan hệ "customer-provider" hoạt động như thế nào về mặt tài chính?
+**Câu 92.**  Trong mô hình phân cấp ISP, quan hệ "customer-provider" hoạt động như thế nào về mặt tài chính?
 
 A. Tier-1 ISPs trả tiền cho regional ISPs để có quyền truy cập  
 B. ISP cấp thấp hơn (customer) trả tiền cho ISP cấp cao hơn (provider) để có kết nối Internet toàn cầu; tier-1 ISPs không trả tiền cho ai  
@@ -1152,7 +1152,7 @@ D. Chỉ end users trả tiền, các ISP kết nối miễn phí với nhau
 
 ---
 
-**Câu 93.** *(Khó)* Điểm mấu chốt nào giải thích tại sao Internet có thể scale đến hàng tỷ thiết bị?
+**Câu 93.**  Điểm mấu chốt nào giải thích tại sao Internet có thể scale đến hàng tỷ thiết bị?
 
 A. Vì có đủ địa chỉ IPv4  
 B. Vì kiến trúc phân tầng ISP, routing tự động, và nguyên lý packet switching cho phép mạng phát triển dần mà không cần thiết kế lại từ đầu  
@@ -1164,7 +1164,7 @@ D. Vì băng thông vật lý tăng đủ nhanh
 
 ---
 
-**Câu 94.** *(Khó)* Nếu thiết kế một ứng dụng cần **đảm bảo độ trễ thấp và ổn định** (như điều khiển robot từ xa), bạn sẽ gặp thách thức gì với Internet hiện tại?
+**Câu 94.**  Nếu thiết kế một ứng dụng cần **đảm bảo độ trễ thấp và ổn định** (như điều khiển robot từ xa), bạn sẽ gặp thách thức gì với Internet hiện tại?
 
 A. Internet không hỗ trợ kết nối real-time  
 B. Queuing delay biến thiên (jitter) trong packet-switched Internet không đảm bảo được delay bound — Internet chỉ cung cấp best-effort service, không có guarantee  
@@ -1176,7 +1176,7 @@ D. Routing protocols không đủ nhanh cho real-time
 
 ---
 
-**Câu 95.** *(Trung bình)* Sự kiện nào đánh dấu sự chuyển đổi Internet từ học thuật sang thương mại?
+**Câu 95.**  Sự kiện nào đánh dấu sự chuyển đổi Internet từ học thuật sang thương mại?
 
 A. Sự ra đời của email năm 1972  
 B. Năm 1991, NSFNET gỡ bỏ hạn chế sử dụng cho mục đích thương mại; năm 1995, NSFNET bị giải thể, backbone do commercial ISPs đảm nhận  
@@ -1188,7 +1188,7 @@ D. Sự xuất hiện của browser Mosaic năm 1993
 
 ---
 
-**Câu 96.** *(Trung bình)* DNS (Domain Name System) thuộc tầng nào và có chức năng gì?
+**Câu 96.**  DNS (Domain Name System) thuộc tầng nào và có chức năng gì?
 
 A. Transport layer — phân giải địa chỉ MAC  
 B. Application layer — dịch hostname (như www.google.com) thành địa chỉ IP 32-bit  
@@ -1200,7 +1200,7 @@ D. Link layer — phân giải địa chỉ vật lý
 
 ---
 
-**Câu 97.** *(Trung bình)* **VoIP** (Voice-over-IP) gặp thách thức gì liên quan đến **packetization delay**?
+**Câu 97.**  **VoIP** (Voice-over-IP) gặp thách thức gì liên quan đến **packetization delay**?
 
 A. Không đủ băng thông để truyền audio  
 B. Phía gửi phải tích lũy đủ một lượng encoded speech để fill một packet trước khi gửi — thời gian chờ này (packetization delay) ảnh hưởng đến chất lượng cảm nhận của người dùng  
@@ -1212,7 +1212,7 @@ D. Mã hóa audio quá phức tạp cho end systems
 
 ---
 
-**Câu 98.** *(Khó)* Bài tập: Gửi file F = 32 Mb (megabits) từ server (Rs = 2 Mbps) đến client (Rc = 1 Mbps), core network rất nhanh. Thời gian download ước tính là bao nhiêu?
+**Câu 98.**  Bài tập: Gửi file F = 32 Mb (megabits) từ server (Rs = 2 Mbps) đến client (Rc = 1 Mbps), core network rất nhanh. Thời gian download ước tính là bao nhiêu?
 
 A. 16 giây  
 B. 32 giây  
@@ -1224,7 +1224,7 @@ D. 8 giây
 
 ---
 
-**Câu 99.** *(Khó)* Tại sao end-to-end delay công thức là **N × (dproc + dtrans + dprop)** chứ không phải đơn giản là dtrans?
+**Câu 99.**  Tại sao end-to-end delay công thức là **N × (dproc + dtrans + dprop)** chứ không phải đơn giản là dtrans?
 
 A. Vì dtrans chỉ tính được ở tầng Physical  
 B. Vì packet phải đi qua N links với N-1 routers — tại mỗi hop đều có đủ 3 loại delay; chúng tích lũy (accumulate) qua mỗi node  
@@ -1236,7 +1236,7 @@ D. Vì N là số packet, không phải số link
 
 ---
 
-**Câu 100.** *(Khó)* Xem xét toàn bộ chương 1: Nguyên lý thiết kế nào giải thích **hầu hết** các quyết định kiến trúc của Internet?
+**Câu 100.**  Xem xét toàn bộ chương 1: Nguyên lý thiết kế nào giải thích **hầu hết** các quyết định kiến trúc của Internet?
 
 A. Tốc độ tối đa là ưu tiên duy nhất  
 B. Sự kết hợp của: packet switching để dùng tài nguyên hiệu quả, layered protocols để modularity, network of networks để scalability, và end-to-end principle để đặt intelligence ở edges — tất cả cùng tạo nên một hệ thống linh hoạt, scalable và open  

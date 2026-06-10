@@ -5,7 +5,7 @@
 
 ---
 
-**Câu 1.** *(Dễ)* Trong thuật ngữ mạng, tất cả các thiết bị kết nối vào Internet — từ máy tính đến điện thoại thông minh — được gọi chung là gì?
+**Câu 1.**  Trong thuật ngữ mạng, tất cả các thiết bị kết nối vào Internet — từ máy tính đến điện thoại thông minh — được gọi chung là gì?
 
 A. Routers  
 B. Packet switches  
@@ -17,7 +17,7 @@ D. ISPs
 
 ---
 
-**Câu 2.** *(Dễ)* Internet có thể được mô tả theo hai góc độ chính. Góc độ nào sau đây là KHÔNG đúng?
+**Câu 2.**  Internet có thể được mô tả theo hai góc độ chính. Góc độ nào sau đây là KHÔNG đúng?
 
 A. Mô tả theo phần cứng và phần mềm cấu thành (nuts-and-bolts)  
 B. Mô tả như một hạ tầng cung cấp dịch vụ cho các ứng dụng phân tán  
@@ -29,7 +29,7 @@ D. Cả A và B đều là cách mô tả đúng
 
 ---
 
-**Câu 3.** *(Dễ)* TCP/IP là gì?
+**Câu 3.**  TCP/IP là gì?
 
 A. Một loại phần cứng router  
 B. Hai giao thức quan trọng nhất của Internet, quy định cách gói tin được gửi và nhận  
@@ -41,7 +41,7 @@ D. Một tổ chức quản lý tên miền Internet
 
 ---
 
-**Câu 4.** *(Dễ)* Tổ chức nào chịu trách nhiệm phát triển các tiêu chuẩn Internet (Internet standards)?
+**Câu 4.**  Tổ chức nào chịu trách nhiệm phát triển các tiêu chuẩn Internet (Internet standards)?
 
 A. IEEE  
 B. ISO  
@@ -53,7 +53,7 @@ D. W3C
 
 ---
 
-**Câu 5.** *(Dễ)* RFC là viết tắt của gì và có vai trò gì?
+**Câu 5.**  RFC là viết tắt của gì và có vai trò gì?
 
 A. Remote File Copy — dùng để sao chép file từ xa  
 B. Requests for Comments — tài liệu định nghĩa các giao thức Internet  
@@ -65,7 +65,7 @@ D. Reliable Frame Check — kiểm tra tính toàn vẹn của frame
 
 ---
 
-**Câu 6.** *(Dễ)* Ứng dụng phân tán (distributed application) là gì?
+**Câu 6.**  Ứng dụng phân tán (distributed application) là gì?
 
 A. Ứng dụng chỉ chạy trên một máy chủ duy nhất  
 B. Ứng dụng liên quan đến nhiều end systems trao đổi dữ liệu với nhau  
@@ -77,7 +77,7 @@ D. Ứng dụng không cần kết nối Internet
 
 ---
 
-**Câu 7.** *(Dễ)* API (Application Programming Interface) trong ngữ cảnh Internet có vai trò gì?
+**Câu 7.**  API (Application Programming Interface) trong ngữ cảnh Internet có vai trò gì?
 
 A. Tăng tốc độ truyền dữ liệu vật lý  
 B. Quy định tập luật mà chương trình gửi phải tuân theo để Internet chuyển dữ liệu đến đích  
@@ -89,7 +89,7 @@ D. Phân bổ địa chỉ IP cho các end systems
 
 ---
 
-**Câu 8.** *(Trung bình)* Điều gì phân biệt **clients** và **servers** trong mạng?
+**Câu 8.**  Điều gì phân biệt **clients** và **servers** trong mạng?
 
 A. Clients có tốc độ xử lý cao hơn servers  
 B. Clients thường là thiết bị người dùng cuối (PC, smartphone), servers là máy lưu trữ và phân phối nội dung  
@@ -101,7 +101,7 @@ D. Clients và servers là hai thuật ngữ hoàn toàn đồng nghĩa
 
 ---
 
-**Câu 9.** *(Trung bình)* Một **protocol** trong mạng máy tính định nghĩa những gì?
+**Câu 9.**  Một **protocol** trong mạng máy tính định nghĩa những gì?
 
 A. Chỉ định dạng của các gói tin  
 B. Chỉ thứ tự gửi tin nhắn  
@@ -113,7 +113,7 @@ D. Chỉ cách mã hóa dữ liệu
 
 ---
 
-**Câu 10.** *(Trung bình)* Tại sao việc có protocol standards (tiêu chuẩn giao thức) lại quan trọng?
+**Câu 10.**  Tại sao việc có protocol standards (tiêu chuẩn giao thức) lại quan trọng?
 
 A. Để tăng tốc độ truyền dữ liệu  
 B. Để mọi người đồng ý về những gì mỗi protocol làm, cho phép tạo ra các hệ thống có thể tương tác (interoperate) với nhau  
@@ -129,7 +129,7 @@ D. Để hạn chế số lượng thiết bị kết nối Internet
 
 ---
 
-**Câu 11.** *(Dễ)* **Access network** là gì?
+**Câu 11.**  **Access network** là gì?
 
 A. Mạng kết nối các router lõi với nhau  
 B. Mạng kết nối vật lý một end system với router đầu tiên trên đường đến đích  
@@ -141,7 +141,7 @@ D. Mạng quản lý địa chỉ IP toàn cầu
 
 ---
 
-**Câu 12.** *(Dễ)* DSL (Digital Subscriber Line) sử dụng hạ tầng nào để truyền dữ liệu?
+**Câu 12.**  DSL (Digital Subscriber Line) sử dụng hạ tầng nào để truyền dữ liệu?
 
 A. Cáp đồng trục (coaxial cable)  
 B. Cáp quang (fiber optic)  
@@ -153,7 +153,7 @@ D. Sóng vô tuyến (radio spectrum)
 
 ---
 
-**Câu 13.** *(Dễ)* HFC (Hybrid Fiber Coax) là gì?
+**Câu 13.**  HFC (Hybrid Fiber Coax) là gì?
 
 A. Công nghệ kết hợp DSL và WiFi  
 B. Hệ thống kết hợp cáp quang từ trung tâm đến điểm phân phối khu phố, và cáp đồng trục đến từng hộ gia đình  
@@ -165,7 +165,7 @@ D. Tiêu chuẩn mã hóa dữ liệu trong mạng cable
 
 ---
 
-**Câu 14.** *(Trung bình)* Tại sao DSL được gọi là **asymmetric** (bất đối xứng)?
+**Câu 14.**  Tại sao DSL được gọi là **asymmetric** (bất đối xứng)?
 
 A. Vì DSL chỉ hỗ trợ một chiều truyền dữ liệu  
 B. Vì tốc độ downstream và upstream khác nhau (downstream cao hơn upstream)  
@@ -177,7 +177,7 @@ D. Vì DSL không đảm bảo băng thông cố định
 
 ---
 
-**Câu 15.** *(Trung bình)* Đặc điểm nào sau đây là của cable Internet access nhưng KHÔNG phải của DSL?
+**Câu 15.**  Đặc điểm nào sau đây là của cable Internet access nhưng KHÔNG phải của DSL?
 
 A. Dùng đường truyền vật lý có sẵn  
 B. Tốc độ bị ảnh hưởng bởi khoảng cách đến trung tâm  
@@ -189,7 +189,7 @@ D. Hỗ trợ truyền đồng thời dữ liệu và tín hiệu khác
 
 ---
 
-**Câu 16.** *(Trung bình)* FTTH (Fiber to the Home) khác với DSL và cable ở điểm căn bản nào?
+**Câu 16.**  FTTH (Fiber to the Home) khác với DSL và cable ở điểm căn bản nào?
 
 A. FTTH rẻ hơn nhưng chậm hơn  
 B. FTTH cung cấp đường cáp quang trực tiếp từ CO đến tận nhà, cho tốc độ tiềm năng gigabit  
@@ -201,7 +201,7 @@ D. FTTH không cần thiết bị đầu cuối tại nhà
 
 ---
 
-**Câu 17.** *(Trung bình)* Sự khác biệt cơ bản giữa WiFi (IEEE 802.11) và 3G/4G/LTE là gì?
+**Câu 17.**  Sự khác biệt cơ bản giữa WiFi (IEEE 802.11) và 3G/4G/LTE là gì?
 
 A. WiFi nhanh hơn 3G/4G trong mọi trường hợp  
 B. WiFi có phạm vi kết nối vài chục mét, còn 3G/4G phủ hàng chục km từ base station  
@@ -213,7 +213,7 @@ D. WiFi và 3G/4G dùng cùng một tần số vô tuyến
 
 ---
 
-**Câu 18.** *(Trung bình)* Ethernet trong môi trường doanh nghiệp cung cấp tốc độ kết nối điển hình là bao nhiêu cho user?
+**Câu 18.**  Ethernet trong môi trường doanh nghiệp cung cấp tốc độ kết nối điển hình là bao nhiêu cho user?
 
 A. 1 Mbps  
 B. 10 Mbps  
@@ -225,7 +225,7 @@ D. 1 Gbps
 
 ---
 
-**Câu 19.** *(Khó)* Tại sao khoảng cách giữa nhà và CO (Central Office) lại giới hạn hiệu quả của DSL?
+**Câu 19.**  Tại sao khoảng cách giữa nhà và CO (Central Office) lại giới hạn hiệu quả của DSL?
 
 A. Vì chi phí đường dây tăng theo khoảng cách  
 B. Vì tín hiệu analog trên đường dây đồng bị suy giảm (attenuation) theo khoảng cách, làm giảm tốc độ khả dụng  
@@ -237,7 +237,7 @@ D. Vì tần số được phân bổ thay đổi theo khoảng cách
 
 ---
 
-**Câu 20.** *(Khó)* Trong PON (Passive Optical Network) — kiến trúc FTTH — tại sao gọi là "passive"?
+**Câu 20.**  Trong PON (Passive Optical Network) — kiến trúc FTTH — tại sao gọi là "passive"?
 
 A. Vì không cần nguồn điện để vận hành  
 B. Vì splitter quang không cần nguồn điện chủ động — nó chia tín hiệu quang theo cơ chế thụ động  
@@ -253,7 +253,7 @@ D. Vì PON không cần thiết bị tại nhà
 
 ---
 
-**Câu 21.** *(Dễ)* Phương tiện vật lý được chia thành hai loại chính. Đó là:
+**Câu 21.**  Phương tiện vật lý được chia thành hai loại chính. Đó là:
 
 A. Digital media và analog media  
 B. Guided media và unguided media  
@@ -265,7 +265,7 @@ D. Fast media và slow media
 
 ---
 
-**Câu 22.** *(Dễ)* Loại phương tiện vật lý nào phổ biến nhất và rẻ nhất trong mạng có dây?
+**Câu 22.**  Loại phương tiện vật lý nào phổ biến nhất và rẻ nhất trong mạng có dây?
 
 A. Coaxial cable  
 B. Fiber optic  
@@ -277,7 +277,7 @@ D. Satellite link
 
 ---
 
-**Câu 23.** *(Trung bình)* Vì sao dây đồng trong twisted pair được xoắn lại với nhau?
+**Câu 23.**  Vì sao dây đồng trong twisted pair được xoắn lại với nhau?
 
 A. Để tăng độ bền cơ học  
 B. Để giảm nhiễu điện từ (electromagnetic interference) từ các cặp dây gần đó  
@@ -289,7 +289,7 @@ D. Để dễ nhận biết trong bó cáp
 
 ---
 
-**Câu 24.** *(Trung bình)* Fiber optic có ưu điểm gì so với copper wire khi truyền dữ liệu đường dài?
+**Câu 24.**  Fiber optic có ưu điểm gì so với copper wire khi truyền dữ liệu đường dài?
 
 A. Fiber rẻ hơn và dễ lắp đặt hơn  
 B. Fiber có tốc độ cao hơn, không bị nhiễu điện từ, và suy giảm tín hiệu rất thấp trong khoảng cách tới 100 km  
@@ -301,7 +301,7 @@ D. Fiber hỗ trợ kết nối không dây
 
 ---
 
-**Câu 25.** *(Trung bình)* Tại sao fiber optic chưa thay thế hoàn toàn copper wire trong mạng nội bộ (LAN)?
+**Câu 25.**  Tại sao fiber optic chưa thay thế hoàn toàn copper wire trong mạng nội bộ (LAN)?
 
 A. Fiber chậm hơn copper trong khoảng cách ngắn  
 B. Chi phí thiết bị quang (transmitters, receivers, switches) vẫn còn cao cho short-haul deployment  
@@ -313,7 +313,7 @@ D. Fiber không thể truyền dữ liệu ở tốc độ LAN
 
 ---
 
-**Câu 26.** *(Khó)* Geostationary satellite (vệ tinh địa tĩnh) có propagation delay khoảng bao nhiêu và tại sao?
+**Câu 26.**  Geostationary satellite (vệ tinh địa tĩnh) có propagation delay khoảng bao nhiêu và tại sao?
 
 A. ~10 ms, vì vệ tinh ở gần Trái Đất  
 B. ~280 ms, vì quỹ đạo ở độ cao ~36,000 km và sóng truyền với tốc độ ánh sáng  
