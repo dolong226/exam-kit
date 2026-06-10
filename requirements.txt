@@ -1,13 +1,6 @@
-# --- Core & Data Validation ---
-pydantic>=2.0.0     # Định nghĩa và validate dữ liệu
-PyYAML>=6.0         # Xử lý file YAML
-
-# --- CLI & Terminal UI ---
-typer>=0.9.0        # Tạo CLI command
-rich>=13.0.0        # Render terminal đẹp
-
-# --- GUI (v2+) ---
-customtkinter>=5.2.0  # GUI hiện đại dựa trên tkinter
-
-# --- AI Grading (v3+) ---
-anthropic>=0.25.0   # Anthropic API client để chấm tự luận
+pydantic>=2.0.0    
+PyYAML>=6.0       
+typer>=0.9.0     
+rich>=13.0.0       
+customtkinter>=5.2.0  
+anthropic>=0.25.0 
